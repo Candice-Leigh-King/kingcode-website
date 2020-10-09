@@ -79,15 +79,6 @@ overflow-x: hidden;  }
   [class*=grid] {   margin: 0;  }
   [class*=col]  {   padding: 0; }
 
-
-  #cycler{position:relative;}
-  #cycler img{position:absolute;z-index:1}
-  #cycler img.active{z-index:3}
-
-  #cycler2{position:relative;}
-  #cycler2 img{position:absolute;z-index:1}
-  #cycler2 img.active2{z-index:3}
-
   .behind {z-index: -1;
   position: absolute;}
 
@@ -189,7 +180,7 @@ overflow-x: hidden;  }
     font-family: "Playfair Display", serif;
     font-size: 3.5rem;
     color: #766c5b;
-  font-weight: 300;}
+    font-weight: 300;}
 
   .social-media-management h1 {
    font-size: 2.2rem;
@@ -238,6 +229,9 @@ overflow-x: hidden;  }
 
   a {color: #766c5c;
   text-decoration: none;}
+
+  .our-benefits a {color: #c1b9ac;}
+  .our-benefits a:hover {color: grey;}
 
   .font-bg {background-color: #ffffffa3;
   padding-bottom: 0.8rem;}
