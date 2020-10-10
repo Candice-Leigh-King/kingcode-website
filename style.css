@@ -546,7 +546,7 @@ overflow-x: hidden;  }
     font-family: 'Dynalight', cursive;
     font-size: 1.5rem;
     border-bottom: 2px solid rgba(255,255,255,.7);
-    padding-top: 4rem;
+    padding-top: 5.5rem;
   }
   .mobile-menu {
     position: fixed;
@@ -555,7 +555,7 @@ overflow-x: hidden;  }
     left:0;
     bottom: 0;
     min-height: 120vh;
-    background: linear-gradient(130deg,rgba(255,255,255,.8) 50%,#d9d5cc 50%);
+    background: linear-gradient(135deg,rgba(255,255,255,.8) 50%,#d9d5cc 50%);
     padding: 16% 10% 10% 10%;
     z-index: 10;
 
