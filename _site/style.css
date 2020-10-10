@@ -280,7 +280,7 @@ overflow-x: hidden;  }
 
   .services {
     padding: 0% 3% 0% 3%;
-    font-size: 1rem;}
+    font-size: 0.9rem;}
 
 
   p.emphasis {   /* typically added to paragraphs to make them a little bigger, could be a different font or color also */
