@@ -32,6 +32,7 @@ overflow-x: hidden;  }
   img {
     max-width: 100%; /* this ensures images never break their container */
     height: auto;
+    margin-bottom: -0.6%;
   }
   .mob-bg1 {
     background-size: cover;
@@ -176,6 +177,8 @@ overflow-x: hidden;  }
     font-size: 3.5rem;
     color: #766c5b;
     font-weight: 300;}
+
+  .web-dev h1 {font-size: 3.3rem;}
 
   .social-media-management h1 {
    font-size: 2.2rem;
@@ -1284,6 +1287,7 @@ a.bg-image-photography {
   h1 {font-size: 2rem;}
   h3 {font-size: 1.4rem;}
   h4 {font-size: 1.3rem;}
+  .web-dev h1 {font-size: 1.8rem;}
 
   .sm-bold { font-size: 2rem;}
   .bold {
@@ -1427,6 +1431,7 @@ a.bg-image-photography {
   h3 {font-size: 1.2rem;}
   h4 {font-size: 1.2rem;}
   .small-font{ font-size: 0.7rem}
+  .web-dev h1 {font-size: 1.1rem;}
 
   .padded-top {  padding-top: 5%;  }
   .padded-bottom {padding-bottom: 2%;}
