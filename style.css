@@ -165,10 +165,6 @@ overflow-x: hidden;  }
     .service-text h3 {color: #c1b9ac;}
 
 
-    .service-text-banner {
-      margin-left: 5%;
-      z-index: 1;}
-
     .social-media { background-color: white;}
     .social-img img {margin-left: : 5%;
     margin-right: 5%;}
@@ -1490,10 +1486,6 @@ a.bg-image-photography {
     text-transform: uppercase;
     font-size: 0.7rem;
     background-color: #c1b9ac; }
-
-  .service-text-banner {
-    margin-left: 0%;
-    z-index: 1;}
 
   .services {
     padding: 2%;
