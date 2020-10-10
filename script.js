@@ -13,9 +13,6 @@ $(document).ready(function() {
 
   // <!--for the review->
 
-   <script src="/slick/slick.min.js"></script>
-   <script>
-
     $(document).ready(function(){
       $('.image-slider').slick({
         draggable: true,
