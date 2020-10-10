@@ -39,8 +39,7 @@ overflow-x: hidden;  }
     background-size: cover;
     background-position: center;
     min-height: 70vh;
-    padding-top: 6rem;
-    background-attachment: fixed;}
+    padding-top: 6rem;}
 
   .mob-img img {
     background-size: cover;
@@ -1361,13 +1360,7 @@ a.bg-image-photography {
 
   .service-banner {  margin-bottom: -3rem;}
 
-  .bg-image-content {
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;}
-
-  .video-main {padding: 30%;
-    background-attachment: fixed;}
+  .video-main {padding: 30%;}
 
   .blog-item-wide .bg-image{
     padding-bottom: 60%;
@@ -1471,8 +1464,7 @@ a.bg-image-photography {
 
   .video-main {
     background-size: cover;
-    padding-bottom: 50%;
-    background-attachment: fixed;}
+    padding-bottom: 50%;}
 
   .arrow {
     font-size: 1rem;
@@ -1518,7 +1510,7 @@ a.bg-image-photography {
 
 }
 
-@media only screen
+/* @media only screen
 and (min-device-width: 375px)
 and (max-device-width: 1024px)
 and (-webkit-min-device-pixel-ratio: 2) {
@@ -1526,7 +1518,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
           background-attachment: initial;
             background-position: 20% 90%;
           }
-      }
+      } */
 
 
 
