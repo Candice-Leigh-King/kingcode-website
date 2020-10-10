@@ -281,6 +281,7 @@ overflow-x: hidden;  }
   .margin-top {margin-top: 0.8rem;}
   .margin {margin: 5%;}
   .margin-2{margin: 6%;}
+  .margin-bottom {margin-bottom: 2%;}
   /* ------- unique typography styles - adjust to suit your styles  --------- */
 
   .logo-font {
@@ -553,12 +554,12 @@ overflow-x: hidden;  }
     top:0;
     right:0;
     z-index: 10;
-    font-size: 1.5rem;
+    font-size: 3rem;
     padding:0% 1%;
     border-radius: 0%;
     margin: 3%;
     position: fixed;
-    border: #c1b9ac solid 1px;
+
   }
 
   .active {
