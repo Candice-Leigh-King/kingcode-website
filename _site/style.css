@@ -35,14 +35,12 @@ overflow-x: hidden;  }
     margin-bottom: -0.6%;
   }
   .mob-bg1 {
+    background-image: url(/images/candy3.jpg);
     background-size: cover;
     background-position: center;
     min-height: 70vh;
     padding-top: 6rem;
-    background-attachment: fixed;
-    z-index: 1;
-
-  }
+    background-attachment: fixed;}
 
   .mob-img img {
     background-size: cover;
@@ -548,7 +546,7 @@ overflow-x: hidden;  }
     color: white;
     font-family: 'Dynalight', cursive;
     font-size: 1.5rem;
-    border-bottom: 2px solid rgba(255,255,255,.9);
+    border-bottom: 2px solid rgba(255,255,255,.7);
     padding-top: 4rem;
   }
   .mobile-menu {
@@ -557,7 +555,7 @@ overflow-x: hidden;  }
     right:0;
     left:0;
     bottom: 0;
-    background: linear-gradient(130deg,rgba(255,255,255,.5) 50%,#d9d5cc 50%);
+    background: linear-gradient(130deg,rgba(255,255,255,.8) 50%,#d9d5cc 50%);
     padding: 16% 10% 10% 10%;
     z-index: 10;
 
@@ -1528,7 +1526,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
           background-attachment: initial;
             background-position: 20% 90%;
           }
-      .bg-image-content,.fixed,.video-main {background-attachment: initial;}
       }
 
 
