@@ -44,19 +44,6 @@ overflow-x: hidden;  }
 
   }
 
-  .mob-bg2 {
-    background-image: url('images/small/mob-bg2.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 70vh;
-    padding-top: 6rem;
-    background-attachment: fixed;
-
-  }
-
-
-
-
   .mob-img img {
     background-size: cover;
     background-position: center;
@@ -1543,10 +1530,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
           background-attachment: initial;
             background-position: 20% 90%;
           }
-
-      .mob-bg2 {
-          background-attachment: initial;
-        }
       .bg-image-content,.fixed,.video-main {background-attachment: initial;}
       }
 
