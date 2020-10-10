@@ -153,9 +153,8 @@ overflow-x: hidden;  }
             }
 
   .bump-left-2 {
-    margin-top: 1rem;
-    margin-left:-7rem;
-    margin-bottom: 1rem;
+    margin-top: 1%;
+    margin-left:-7%;
     z-index:1;
     position: relative;}
 
@@ -1316,7 +1315,7 @@ a.bg-image-photography {
     border-bottom: solid white 5px;
                 }
 
-  .bump-left-2 {  margin-left: -5rem;   }
+  /* .bump-left-2 {  margin-left: -5rem;   } */
 
   .bump-right {
     margin-top: 0.5rem;
@@ -1457,9 +1456,9 @@ a.bg-image-photography {
     margin-right: 0rem;
     position: relative;}
 
-  .bump-left-2 {
+  /* .bump-left-2 {
     margin-left: -2rem;
-    margin-bottom: 0rem;
+    margin-bottom: 0rem; */
                   }
 
   .bump-right {
