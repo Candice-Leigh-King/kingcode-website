@@ -261,6 +261,8 @@ overflow-x: hidden;  }
       margin: 0% 40% 0% 40%;
       color: #766c5b;}
 
+  .margin-neg {margin-bottom: -0.1%;}
+
   .border-grey {
     border: 1px solid grey;
     padding: 5rem 3rem 5rem 3rem;}
@@ -1249,7 +1251,7 @@ a.bg-image-photography {
   transition: all .35s;
 }
 
-/* NEED DANIELs HELP to stop auto popping back open, and make the thing twist */
+
 .accordion dt a::after {
   content: "+";
 }
@@ -1286,7 +1288,7 @@ a.bg-image-photography {
 
   h1 {font-size: 2rem;}
   h3 {font-size: 1.4rem;}
-  h4 {font-size: 1.3rem;}
+  h4 {font-size: 1.2rem;}
   .web-dev h1 {font-size: 1.8rem;}
 
   .sm-bold { font-size: 2rem;}
@@ -1296,6 +1298,8 @@ a.bg-image-photography {
     margin-bottom: 0.8rem;}
 
   .small-font{ font-size: 0.8rem}
+
+  .margin-neg {margin-bottom: -0.5%;}
 
   .centered-paragraphs {text-align: center;}
 
@@ -1429,7 +1433,7 @@ a.bg-image-photography {
   h1 {font-size: 1.7rem;}
   h2 {font-size: 2rem;}
   h3 {font-size: 1.2rem;}
-  h4 {font-size: 1.2rem;}
+  h4 {font-size: 1.1rem;}
   .small-font{ font-size: 0.7rem}
   .web-dev h1 {font-size: 1.1rem;}
 
@@ -1438,6 +1442,7 @@ a.bg-image-photography {
   .padded-2 {padding: 1rem 2rem 1rem 2rem;}
   .padded-1 {padding: 0.4rem;}
   .padded-top-left-bottom {padding: 0%;}
+  .margin-neg {margin-bottom: -1%;}
 
 
   .border-grey {
