@@ -29,7 +29,6 @@ $(document).ready(function() {
                   $("#hidden-div").show();
                 });
             });
-    </script>
 
 
 	// This is the pop-up gallery
