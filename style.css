@@ -1262,6 +1262,9 @@ a.bg-image-photography {
   h3 {font-size: 1.4rem;}
   h4 {font-size: 1.2rem;}
   .web-dev h1 {font-size: 1.8rem;}
+  .services {
+    padding: 0% 3% 0% 3%;
+    font-size: 0.9rem;}
 
   .sm-bold { font-size: 2rem;}
   .bold {
@@ -1291,8 +1294,6 @@ a.bg-image-photography {
     border-right: solid white 5px;
     border-bottom: solid white 5px;
                 }
-
-  /* .bump-left-2 {  margin-left: -5rem;   } */
 
   .bump-right {
     margin-top: 0.5rem;
@@ -1385,12 +1386,12 @@ a.bg-image-photography {
   .flex-flip{
     flex-direction: row;
   }
-
-} /* end media query */
+}
+/* end media query */
 
 
 /* This media query kicks into action at the gridlex xs breakpoint */
-@media(max-width:576px) {
+@media(max-width:576px){
 
   p {font-size: 0.9rem;}
 
@@ -1403,12 +1404,13 @@ a.bg-image-photography {
   h3 {font-size: 1.2rem;}
   h4 {font-size: 1.1rem;}
 
+
   .small-font{ font-size: 0.7rem}
   .web-dev h1 {font-size: 1.1rem;}
 
   .services {
-    padding: 0% 3% 0% 3%;
-    font-size: 1rem;}
+    padding: 0% 1.6% 0% 1.6%;
+    font-size: 0.6rem;}
 
   .padded-top {  padding-top: 5%;  }
   .padded-bottom {padding-bottom: 2%;}
@@ -1436,11 +1438,6 @@ a.bg-image-photography {
     margin-bottom: 0rem;
     margin-right: 0rem;
     position: relative;}
-
-  /* .bump-left-2 {
-    margin-left: -2rem;
-    margin-bottom: 0rem; */
-                  }
 
   .bump-right {
     margin-top: 0rem;
@@ -1517,10 +1514,11 @@ a.bg-image-photography {
    font-size: 0.7rem;
    border-top: solid 1px;
   padding-top: 1rem;}
-
- }
 }
 
+@media(max-width:375px) {
+
+}
 
 @media only screen
 and (min-device-width: 375px)
@@ -1534,9 +1532,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
       }
 
 
-@media(max-width:375px) {
 
-}
 
 
 
