@@ -169,7 +169,7 @@ overflow-x: hidden;  }
    font-weight: bolder;}
 
    h4 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-family: "Playfair Display", serif;
     color: #766c5b;
     line-height: 1.5;
@@ -1402,8 +1402,13 @@ a.bg-image-photography {
   h2 {font-size: 2rem;}
   h3 {font-size: 1.2rem;}
   h4 {font-size: 1.1rem;}
+
   .small-font{ font-size: 0.7rem}
   .web-dev h1 {font-size: 1.1rem;}
+
+  .services {
+    padding: 0% 3% 0% 3%;
+    font-size: 1rem;}
 
   .padded-top {  padding-top: 5%;  }
   .padded-bottom {padding-bottom: 2%;}
@@ -1418,6 +1423,7 @@ a.bg-image-photography {
     padding: 1rem 1rem 1rem 1rem;}
 
   .border {border: solid white 2.5px;}
+
   .border-top-right-bottom {
     border-top: solid white 2.5px;
     border-right: solid white 2.5px;
@@ -1465,8 +1471,6 @@ a.bg-image-photography {
     text-transform: uppercase;
     font-size: 0.7rem;
     background-color: #c1b9ac; }
-
-
 
   .service-banner {  margin-bottom: 0.2rem;}
 
@@ -1516,6 +1520,8 @@ a.bg-image-photography {
 
  }
 }
+
+
 @media only screen
 and (min-device-width: 375px)
 and (max-device-width: 1024px)
@@ -1528,7 +1534,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
       }
 
 
+@media(max-width:375px) {
 
+}
 
 
 
