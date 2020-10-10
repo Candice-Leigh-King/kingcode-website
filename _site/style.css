@@ -546,7 +546,6 @@ overflow-x: hidden;  }
     color: #e3dfd4;
     border-bottom: solid 1px #e3dfd4;}
 
-  .sticky {position: sticky;}
 
   /* Hamburger Menu */
   .hamburger,
@@ -555,7 +554,6 @@ overflow-x: hidden;  }
   }
 
   .hamburger {
-    position: absolute;
     top:0;
     right:0;
     z-index: 10;
