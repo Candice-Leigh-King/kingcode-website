@@ -54,19 +54,7 @@ overflow-x: hidden;  }
 
   }
 
-  @media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-      .mob-bg1  {
-            background-attachment: initial;
-              background-position: 20% 90%;
-            }
 
-        .mob-bg2 {
-            background-attachment: initial;
-          }
-        }
 
 
   .mob-img img {
@@ -1547,14 +1535,24 @@ a.bg-image-photography {
 
  }
 }
-@media (max-width:375px;) {
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .mob-bg1  {
+          background-attachment: initial;
+            background-position: 20% 90%;
+          }
 
-  .unique-padding {padding: 1.5rem;}
+      .mob-bg2 {
+          background-attachment: initial;
+        }
+      .bg-image-content,.fixed,.video-main {background-attachment: initial;}
+      }
 
 
 
 
 
 
-}
 /* end media query */
