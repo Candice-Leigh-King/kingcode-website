@@ -280,7 +280,7 @@ overflow-x: hidden;  }
 
   .services {
     padding: 0% 3% 0% 3%;
-    font-size: 0.9rem;}
+    font-size: 1rem;}
 
 
   p.emphasis {   /* typically added to paragraphs to make them a little bigger, could be a different font or color also */
@@ -1362,10 +1362,6 @@ a.bg-image-photography {
 
   .service-banner {  margin-bottom: -3rem;}
 
-  .services {
-    padding:  0% 1.5% 0% 1.5%;
-    font-size: 0.9rem;}
-
   .bg-image-content {
     background-size: cover;
     background-position: center;
@@ -1447,14 +1443,14 @@ a.bg-image-photography {
     margin-right: 0rem;
     position: relative;}
 
-    .bump-up {
+  .bump-up {
       margin-top: -5rem;
       margin-left: 1rem;
       margin-right:1rem;
       z-index:1;
               }
 
-    .banner-social {
+  .banner-social {
       background-size: cover;
       background-position: center;
       min-height: 0vh;}
@@ -1470,9 +1466,7 @@ a.bg-image-photography {
     font-size: 0.7rem;
     background-color: #c1b9ac; }
 
-  .services {
-    padding: 2%;
-    font-size:10.2px}
+
 
   .service-banner {  margin-bottom: 0.2rem;}
 
