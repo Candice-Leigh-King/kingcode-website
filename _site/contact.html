@@ -184,7 +184,7 @@
         </div>
 
         <div class="floating-input">
-          <textarea name="message" placeholder="What services do you require? Web Development, Social Media Course, etc.." class="input-text" required="What services do you require? Web Development, Social Media Course, etc.."></textarea>
+          <textarea name="message" placeholder="What services do you require? Web Development,Photography, etc..." class="input-text" required="What services do you require? Web Development, Photography, etc..."></textarea>
           <label class="input-label">Your Message</label>
         </div>
         <input type="hidden" name="_to" value="hello@candyandtheking.com">
@@ -406,6 +406,16 @@
 <script>
      $('.autoplay').slick({
        slidesToShow: 4,
+       slidesToScroll: 1,
+       autoplay: true,
+       arrows: true,
+       autoplaySpeed: 2000,
+     });
+</script>
+
+<script>
+     $('.two-time').slick({
+       slidesToShow: 2,
        slidesToScroll: 1,
        autoplay: true,
        arrows: true,
