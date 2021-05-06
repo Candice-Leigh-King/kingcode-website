@@ -185,6 +185,10 @@
   h2  { font-size: 2rem;  }
   h3  { font-size: 1.8rem;  }
 
+  .apply {
+    color: #766c5c;
+    text-shadow: 2px 2px 3px rgb(0 0 0 / 27%);}
+
   p   { font-size: 1rem;  }
 
   .logo h2 {
