@@ -1433,6 +1433,12 @@ a.bg-image-photography {
   .small-font{ font-size: 0.7rem}
   .web-dev h1 {font-size: 1.1rem;}
 
+  .web-dev img
+    {
+    max-width: 85%;
+    max-height: auto;
+    }
+
   .services {
     padding: 0% 1.6% 0% 1.6%;
     font-size: 0.6rem;}
