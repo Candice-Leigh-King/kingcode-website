@@ -15,6 +15,7 @@
   gtag('config', 'UA-180180416-1');
 </script>
 
+<meta name="facebook-domain-verification" content="qetuq6errq1ut3a5qufqawqnwg1626" />
 
 
    <meta charset="utf-8">
@@ -96,7 +97,23 @@
 
     <link rel="stylesheet" href="/style.css"/>
 
-
+    <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1072104200300808');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1072104200300808&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
 </head>
 
 <body>
@@ -124,7 +141,6 @@
 
     </div>
     <nav class=" col-8-middle_sm-hidden right fixed">
-      <a class="padded-sides" href="/">home </a>
       <a class="padded-sides" href="/services">services</a>
       <a class="padded-sides" href="/clients">clients</a>
       <a  class="padded-sides" href="/clients#reviews">reviews</a>
@@ -311,7 +327,6 @@
         <section class="padded-sides grid centered split-beige">
           <div class="col-1-middle centered mob-hide ">
             <nav class="sticky mob-hide">
-              <p class="side-bar fadein"><a  href="/">home <br></a></p>
               <p class="side-bar fadein"><a  href="/services">services <br></a></p>
               <p class="side-bar fadein"><a  href="/clients">clients <br></a></p>
               <p class="side-bar fadein"><a  href="/clients#reviews">reviews <br></a></p>
@@ -548,7 +563,7 @@
          $(document).ready(function(){
            $('.image-slider').slick({
              draggable: true,
-             dots: true,
+             dots: false,
              adaptiveHeight: true,
              prevArrow: false,
              nextArrow: false,
@@ -602,6 +617,24 @@
      });
 </script>
 
-
+<!-- GetButton.io widget -->
+<!-- <script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "254792592802", // WhatsApp number
+            instagram: "kingcodeofficial", // Instagram username
+            instagram_color: "#FF6550", // Instagram button color
+            call_to_action: "Drop us a message!", // Call to action
+            button_color: "#A8CE50", // Color of button
+            position: "right", // Position may be 'right' or 'left'
+            order: "whatsapp,instagram", // Order of buttons
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script> -->
+<!-- /GetButton.io widget -->
 </body>
 </html>
