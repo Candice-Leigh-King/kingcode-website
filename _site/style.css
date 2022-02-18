@@ -485,6 +485,14 @@
 
   }
 
+.radius
+  {
+  border-radius: 90px;
+  border: solid 1px;
+  padding: 1px;
+  margin-bottom: 3px;
+  }
+
   header nav a,
   .inline a {
     display: inline-block;
