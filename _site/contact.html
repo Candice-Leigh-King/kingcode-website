@@ -198,9 +198,15 @@
           <label class="input-label">Your Brand</label>
         </div>
 
-        <div class="floating-input">
-          <textarea name="message" placeholder="What services do you require? Web Development,Photography, etc..." class="input-text" required="What services do you require? Web Development, Photography, etc..."></textarea>
-          <label class="input-label">Your Message</label>
+        <div class="floating-input input-text">
+          <select name="services" id="services" required="">
+            <option class="input-text">What services do you require?</option>
+            <option class="input-text" value="Web Development">Web Development</option>
+            <option class="input-text" value="Social Media Marketing">Social Media Marketing</option>
+            <option class="input-text" value="Photography">Photography</option>
+            <option class="input-text" value="Videography">Videography</option>
+            <option class="input-text" value="Other">Other</option>
+          </select>
         </div>
         <input type="hidden" name="_to" value=md@kingcode.uk">
         <input type="text" name="_gotcha" style="display: none;">

@@ -987,16 +987,23 @@ element.style {display: none;}
 
 
 input,
-textarea
+textarea,
+select,
+option
   {
   border-style: solid;
   border: 2px solid rgb(200, 200, 205);
   padding: 0.8em;
   display: block;
   width: 100%;
-  font-size: 1rem;
+  font-size: 1.2rem;
   vertical-align: top;
+  font-family: "Playfair Display", serif;
+  background-color: transparent;
+  border: none;
+  color: rgb(120,120,125);
   }
+select {padding: 0.7rem 0 0.5rem}
 
 .input-text:focus {border-color:  #efe9db;}
 
