@@ -114,179 +114,7 @@
   src="https://www.facebook.com/tr?id=1072104200300808&ev=PageView&noscript=1"
   /></noscript>
   <!-- End Meta Pixel Code -->
-  <script type="text/javascript">
-// /<![CDATA[/
-(function () {
-  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-  if (window.ShopifyBuy) {
-    if (window.ShopifyBuy.UI) {
-      ShopifyBuyInit();
-    } else {
-      loadScript();
-    }
-  } else {
-    loadScript();
-  }
-  function loadScript() {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = scriptURL;
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-    script.onload = ShopifyBuyInit;
-  }
-  function ShopifyBuyInit() {
-    var client = ShopifyBuy.buildClient({
-      domain: 'candyandtheking.myshopify.com',
-      storefrontAccessToken: 'cab3cab316e153c92c8cc9afe856b9fd',
-    });
-    ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('product', {
-        id: '7200413843637',
-        node: document.getElementById('product-component-1648009510441'),
-        moneyFormat: '%24%7B%7Bamount%7D%7D',
-        options: {
-  "product": {
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "calc(25% - 20px)",
-          "margin-left": "20px",
-          "margin-bottom": "50px"
-        }
-      },
-      "button": {
-        "font-family": "Noto Sans HK, sans-serif",
-        ":hover": {
-          "background-color": "#766c5b"
-        },
-        "background-color": "#c1b9ac",
-        ":focus": {
-          "background-color": "#766c5b"
-        },
-        "border-radius": "0px",
-        "padding-left": "40px",
-        "padding-right": "40px"
-      }
-    },
-    "buttonDestination": "modal",
-    "contents": {
-      "img": false,
-      "title": false,
-      "price": false,
-      "options": false
-    },
-    "text": {
-      "button": "BUY NOW"
-    },
-  },
-  "productSet": {
-    "styles": {
-      "products": {
-        "@media (min-width: 601px)": {
-          "margin-left": "-20px"
-        }
-      }
-    }
-  },
-  "modalProduct": {
-    "contents": {
-      "img": false,
-      "imgWithCarousel": true,
-      "button": false,
-      "buttonWithQuantity": true
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0px",
-          "margin-bottom": "0px"
-        }
-      },
-      "button": {
-        "font-family": "Noto Sans HK, sans-serif",
-        ":hover": {
-          "background-color": "#766c5b"
-        },
-        "background-color": "#c1b9ac",
-        ":focus": {
-          "background-color": "#766c5b"
-        },
-        "border-radius": "0px",
-        "padding-left": "24px",
-        "padding-right": "24px",
-      },
-      "title": {
-        "font-family": "Noto Sans HK, sans-serif",
-        "font-weight": "normal"
-      },
-      "price": {
-        "font-family": "Noto Sans HK, sans-serif"
-      },
-      "compareAt": {
-        "font-family": "Noto Sans HK, sans-serif"
-      },
-      "unitPrice": {
-        "font-family": "Noto Sans HK, sans-serif"
-      },
-      "description": {
-        "font-family": "Noto Sans HK, sans-serif"
-      }
-    },
-    "text": {
-      "button": "Add to cart"
-    }
-  },
-  "option": {
-    "styles": {
-      "label": {
-        "font-family": "Noto Sans HK, sans-serif"
-      },
-      "select": {
-        "font-family": "Noto Sans HK, sans-serif"
-      }
-    },
-  },
-  "cart": {
-    "styles": {
-      "button": {
-        "font-family": "Noto Sans HK, sans-serif",
-        ":hover": {
-          "background-color": "#766c5b"
-        },
-        "background-color": "#c1b9ac",
-        ":focus": {
-          "background-color": "#766c5b"
-        },
-        "border-radius": "0px"
-      }
-    },
-    "text": {
-      "total": "Subtotal",
-      "button": "Checkout"
-    },
-  },
-  "toggle": {
-    "styles": {
-      "toggle": {
-        "font-family": "Noto Sans HK, sans-serif",
-        "background-color": "#766c5b",
-        ":hover": {
-          "background-color": "#c1b9ac"
-        },
-        ":focus": {
-          "background-color": "#766c5b"
-        }
-      }
-    },
-  }
-},
-      });
-    });
-  }
-})();
-/]]>/
-</script>
+
 </head>
 
 <body>
@@ -373,7 +201,7 @@
 
 <!-- TEMPLATE SECTION -->
 
-<section class="grid-center templates split-beige-white">
+<!-- <section class="grid-center templates split-beige-white">
   <h4 class="col-8_sm-12 centered padded">We build websites for all budgets. <br> View this demo of our hybrid template for entrepreneurs wanting the functionality and design of a custom-coded website, but in the price range of a WordPress template. </h4>
 
   <div class="grid-center col-12 padded-sides">
@@ -400,10 +228,10 @@
 
   <section class="padded-sides grid" id="faqs">
 
-    <h3 class="centered padded-1 editable col-12"> FAQs </h3>
+    <h3 class="centered padded-1 editable col-12"> FAQs </h3> -->
 
     <!-- dl stands for description list, with a description title and a description description -->
-    <dl class=" padded-1 plus grid col-12">
+    <!-- <dl class=" padded-1 plus grid col-12">
       <div class="accordion1 col-12">
         <div class="accordion ">
          <h4 class="editable">What is a hybrid template? </h4>
@@ -427,7 +255,7 @@
         <div class="accordion">
           <h4 class="editable"> How do I access the media kit page on The Explore Template?</h4>
         <div class="panel2">
-          <p class="editable">If you'd like to take a look at the media kit page on The Explore Template, you can simply <a href="#">click here</a>. If you would like to learn how to edit The Explore Template and all the pages with it alone with the media kit page, your can view the editing tutorial <a href="#">here</a>.
+          <p class="editable">If you'd like to take a look at the media kit page on The Explore Template, you can simply <a href="https://explore-template.kingcode.uk/media-kit"><u>click here</u></a>. If you would like to learn how to edit The Explore Template and all the pages with it alone with the media kit page, your can view the editing tutorial <a href="#"><u>here</u></a>.
           </p>
           </div>
         </div>
@@ -447,7 +275,14 @@
         <div class="accordion">
          <h4 class="editable"> What is included with hosting?</h4>
         <div class="panel5">
-          <p class="editable">With half of our team coming from Africa, we have strong knowledge on dos and don'ts. Just like EVERY country, there are safe and unsafe areas, and we won't be going to places that aren't safe. The scariest thing you'll see are lions during the safari, but who doesn't want to see that!?  </p>
+          <p class="editable"> Our hosting package is one of the best priced packages there is for all that you get! Here is a list of all that is included:
+          <li>Unique Domain Name (URL)</li>
+          <li>Wildcard SSL Certificate</li>
+          <li>Troubleshooting</li>
+          <li>Content Management System (CMS)</li>
+          <li>CMS Training Video</li>
+          <li>Updates are charged per request</li>
+          </p>
           </div>
         </div>
       </div>
@@ -478,9 +313,9 @@
         </div>
         </div>
       </div>
-      </dl>
-  </section>
-</section>
+      </dl> -->
+  <!-- </section>
+</section> -->
 
 <!-- nav banner goes here -->
 
