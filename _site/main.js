@@ -11,40 +11,55 @@ $(document).ready(function() {
 	});
 	// end hamburger menu
 
-	// This is the pop-up gallery
-	$('.popup-gallery').magnificPopup({
-		delegate: 'a',
-		type: 'image',
-		tLoading: 'Loading image #%curr%...',
-		mainClass: 'mfp-img-mobile',
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
-			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-		},
-		image: {
-			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-			titleSrc: function(item) {
-				return item.el.attr('title');
-			}
-		}
-	});
+	// faqs
 
-	var allPanels = $('.accordion > dd').hide();
+	$(".accordion1").click(function(){
 
-		$('.accordion > dt > a').click(function() {
+		$(this).toggleClass('active');
+		$(".panel1").slideToggle();
+		})
 
-			allPanels.slideUp();
+	$(".accordion2").click(function(){
 
-	    $(this).filter('.open').removeClass('open').addClass('closing')
-	    $('.accordion > dt > a').removeClass('open');
-	  $(this).not(".closing").addClass('open').parent().next().slideDown();
-	    $('.accordion > dt > a').removeClass('closing');
+		$(this).toggleClass('active');
+		$(".panel2").slideToggle();
+		})
 
-	    return false;
-		});
+	$(".accordion3").click(function(){
 
+		$(this).toggleClass('active');
+		$(".panel3").slideToggle();
+		})
 
+	$(".accordion4").click(function(){
+
+		$(this).toggleClass('active');
+		$(".panel4").slideToggle();
+		})
+
+	$(".accordion5").click(function(){
+
+		$(this).toggleClass('active');
+		$(".panel5").slideToggle();
+		})
+
+	$(".accordion6").click(function(){
+
+		$(this).toggleClass('active');
+		$(".panel6").slideToggle();
+		})
+
+	$(".accordion7").click(function(){
+
+		$(this).toggleClass('active');
+		$(".panel7").slideToggle();
+		})
+
+	$(".accordion8").click(function(){
+
+		$(this).toggleClass('active');
+		$(".panel8").slideToggle();
+		})
 });
 
 // end accordian

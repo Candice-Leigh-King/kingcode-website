@@ -51,9 +51,9 @@
     <meta name="twitter:card" content="" />
     <meta name="twitter:description" content="Web Developers and Content Creators" />
     <meta name="twitter:title" content="King Code Website Development" />
-    <meta name="twitter:site" content="@candyandtheking" />
+    <meta name="twitter:site" content="@kingcodestudio" />
     <meta name="twitter:image" content="/images/nav-banner-computer3.jpg" />
-    <meta name="twitter:creator" content="@candyandtheking" />
+    <meta name="twitter:creator" content="@kingcodestudio" />
     <meta name="twitter:image:alt" content="Custom-made websites for women in business | Content creation | Online Social Media Course  | Social Media Management"
 
 
@@ -114,6 +114,179 @@
   src="https://www.facebook.com/tr?id=1072104200300808&ev=PageView&noscript=1"
   /></noscript>
   <!-- End Meta Pixel Code -->
+  <script type="text/javascript">
+// /<![CDATA[/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'candyandtheking.myshopify.com',
+      storefrontAccessToken: 'cab3cab316e153c92c8cc9afe856b9fd',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '7200413843637',
+        node: document.getElementById('product-component-1648009510441'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "font-family": "Noto Sans HK, sans-serif",
+        ":hover": {
+          "background-color": "#766c5b"
+        },
+        "background-color": "#c1b9ac",
+        ":focus": {
+          "background-color": "#766c5b"
+        },
+        "border-radius": "0px",
+        "padding-left": "40px",
+        "padding-right": "40px"
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "img": false,
+      "title": false,
+      "price": false,
+      "options": false
+    },
+    "text": {
+      "button": "BUY NOW"
+    },
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-family": "Noto Sans HK, sans-serif",
+        ":hover": {
+          "background-color": "#766c5b"
+        },
+        "background-color": "#c1b9ac",
+        ":focus": {
+          "background-color": "#766c5b"
+        },
+        "border-radius": "0px",
+        "padding-left": "24px",
+        "padding-right": "24px",
+      },
+      "title": {
+        "font-family": "Noto Sans HK, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Noto Sans HK, sans-serif"
+      },
+      "compareAt": {
+        "font-family": "Noto Sans HK, sans-serif"
+      },
+      "unitPrice": {
+        "font-family": "Noto Sans HK, sans-serif"
+      },
+      "description": {
+        "font-family": "Noto Sans HK, sans-serif"
+      }
+    },
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "Noto Sans HK, sans-serif"
+      },
+      "select": {
+        "font-family": "Noto Sans HK, sans-serif"
+      }
+    },
+  },
+  "cart": {
+    "styles": {
+      "button": {
+        "font-family": "Noto Sans HK, sans-serif",
+        ":hover": {
+          "background-color": "#766c5b"
+        },
+        "background-color": "#c1b9ac",
+        ":focus": {
+          "background-color": "#766c5b"
+        },
+        "border-radius": "0px"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    },
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Noto Sans HK, sans-serif",
+        "background-color": "#766c5b",
+        ":hover": {
+          "background-color": "#c1b9ac"
+        },
+        ":focus": {
+          "background-color": "#766c5b"
+        }
+      }
+    },
+  }
+},
+      });
+    });
+  }
+})();
+/]]>/
+</script>
 </head>
 
 <body>
@@ -134,41 +307,7 @@
     </div>
   </div>
 
-        <header>
-  <div class="grid page">
-    <div class="logo col-2-middle left"> <a href ="/"> <img src="/images/logo-rec-dark.png" alt="king Code logo"></a></div>
-    <div class="col-2_sm-hidden">
-
-    </div>
-    <nav class=" col-8-middle_sm-hidden right fixed">
-      <a class="padded-sides" href="/services">services</a>
-      <a class="padded-sides" href="/clients#reviews">clients</a>
-      <a  class="padded-sides" href="/clients">reviews</a>
-      <a class="padded-sides" href="/contact">contact</a>
-    </nav>
-  </div>
-
-  <div class="col-2-middle padded grid centered fixed desktop-hide">
-    <div>
-      <p class="hamburger">⋯</p>
-    </div>
-  <!-- only opens with mobile-menu -->
-
-    <div class='grid-center page-nav mobile-menu'>
-      <p class="cross">╳</p>
-      <a  href="/">home <br></a>
-      <a  href="/services">services <br></a>
-      <a  href="/clients#reviews">clients <br></a>
-      <a  href="/clients">reviews <br></a>
-      <a  href="/contact">contact</a><br>
-      <p class="right menu-p">we'll make you memorable.</p>
-    </div>
-  </div>
-
-</header>
-
-
-<!-- banner -->
+        <!-- banner -->
 <section class ="light-bg padded-top">
 <section class="grid-center padded-top banner-square">
   <section class="bg-white web-dev grid-center">
@@ -227,12 +366,123 @@
     </div>
   </div>
 </section>
+
 <section class="grid-center">
   <a class="button-social-media col-8-middle centered fadein padded-bottom" href="/contact"> Enquire</a>
 </section>
 
-<!-- nav banner goes here -->
+<!-- TEMPLATE SECTION -->
 
+<section class="grid-center templates split-beige-white">
+  <h4 class="col-8_sm-12 centered padded">We build websites for all budgets. <br> View this demo of our hybrid template for entrepreneurs wanting the functionality and design of a custom-coded website, but in the price range of a WordPress template. </h4>
+
+  <div class="grid-center col-12 padded-sides">
+    <div class="grid-center col-4_md-6_sm-8_xs-12 border-template template-radius template-bg">
+      <div class="col-12 ">
+        <div class="small-image template-radius" style="background-image: url('images/explore-cropped1.jpg');">
+        </div>
+      </div>
+      <div class="col-12 padded">
+        <div class=" padded">
+            <h3 class="">The Explore Template</h3>
+            <p class="">Designed for creators and small businesses, this template was build to support entrepreneurs during their first 2 years of business. This <a href="#">hybrid template</a> has been designed for all device types with additional functionalities and images for tablet and mobile. The Explore Template also comes with a hidden media kit page to support brand collaborations.</p>
+            <div class="centered">
+              <a class="button-solid" href="https://explore-template.kingcode.uk/" target="_blank">view demo</a>
+              <div class="shopify-buy-frame--product">
+                  <div id='product-component-1648009510441'></div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="padded-sides grid" id="faqs">
+
+    <h3 class="centered padded-1 editable col-12"> FAQs </h3>
+
+    <!-- dl stands for description list, with a description title and a description description -->
+    <dl class=" padded-1 plus grid col-12">
+      <div class="accordion1 col-12">
+        <div class="accordion ">
+         <h4 class="editable">What is a hybrid template? </h4>
+        <div class="panel1">
+          <p class="editable">A hybrid template is a combination of a custom-coded website and a regular template. Since all regular templates run extremely slowly and have a handful of security issues, we decided to take ONLY the good and necessary elements of a template and build it in the same way we build custom-coded websites.
+          </p>
+        </div>
+        </div>
+      </div>
+
+      <div class="accordion4 col-12">
+        <div class="accordion">
+           <h4 class="editable">Is a hybrid template faster than a regular Template?</h4>
+        <div class="panel4">
+          <p class="editable">Yes.The reason regular templates hosted on WordPress, Squarespace, Wix, etc are so slow is due to all the additional code and extra features that come with those hosting platforms to make sure the template covers every single client. Although this sounds good in theory, the reality is that on average, you will only use 45% of those features on your site. This means your site is loading code that you aren't even using, and it also means that there is unnecessary script linked to unknown backend sources slowing down your website and making it easier to hack. A hybrid template is designed specifically for a single clienttel, therefore there are only feautures that you will NEED in your industry. This speeds up your website performance by more than 4 times. A hybrid template is also a lot easier to edit and is more user-friendly since the features available to you are only the ones you need. Since custom-code is at the core of our templates, you'll be able to scale your website very easily in the future as your business grows by adding other functionalities like a blog, shop or portfolio. You will also have access to <a href="#">additional features</a> like Google Analytics, Google Ads, Instagram grid loader (loads your most recent IG photos), and any other feature you wish with NO plugin at all (just a small fee). </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion2 col-12">
+        <div class="accordion">
+          <h4 class="editable"> How do I access the media kit page on The Explore Template?</h4>
+        <div class="panel2">
+          <p class="editable">If you'd like to take a look at the media kit page on The Explore Template, you can simply <a href="#">click here</a>. If you would like to learn how to edit The Explore Template and all the pages with it alone with the media kit page, your can view the editing tutorial <a href="#">here</a>.
+          </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion3 col-12">
+        <div class="accordion">
+          <h4 class="editable"> How much does a hybrid template cost?</h4>
+        <div class="panel3">
+          <p class="editable">Each hybrid template is priced differently. Our King Code hybrid template range from $150 to $1,000.
+          </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion5 col-12">
+        <div class="accordion">
+         <h4 class="editable"> What is included with hosting?</h4>
+        <div class="panel5">
+          <p class="editable">With half of our team coming from Africa, we have strong knowledge on dos and don'ts. Just like EVERY country, there are safe and unsafe areas, and we won't be going to places that aren't safe. The scariest thing you'll see are lions during the safari, but who doesn't want to see that!?  </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion6 col-12">
+        <div class="accordion">
+          <h4 class="editable">How do I edit my website?</h4>
+        <div class="panel6">
+          <p class="editable">Kenya is OPEN for travel! We're so excited to be going there. For regularly updated info, check out this <a href="">page.</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion7 col-12">
+        <div class="accordion">
+          <h4> What platform is my site hosted on?</h4>
+        <div class="panel7">
+          <p class="editable">Since we want to maximise learning potential by keeping our bootcamp lessons at 10 students max, applying doesn't guarantee you a spot. We're also only accepting students who really want to turn their hobby into a career, and are suitable for this social media retreat.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion8 col-12">
+        <div class="accordion">
+           <h4 class="editable"> Add ons and other features?</h4>
+        <div class="panel8">
+          <p class="editable">You will find these <a href="http://www.sasria.co.za/products/rates-schedule-calculatorhttp:/www.sasria.co.za/" target="_blank">here</></p>
+        </div>
+        </div>
+      </div>
+      </dl>
+  </section>
+</section>
+
+<!-- nav banner goes here -->
 
 
         <section class="padded-sides grid centered split-beige">
@@ -280,7 +530,7 @@
 
 
           <!-- column -->
-          <div class="col-4_sm-12 padded">
+          <div class="col-3_md-9_xs-12 padded-m padded-m">
              <h2>
                <a href="https://www.kingcode.uk/">
                  king code
@@ -292,13 +542,13 @@
           </div>
 
           <!-- column -->
-          <div class="col-8_sm-12-middle small-font footer-nav padded right">
+          <div class="col-9_md-12-middle small-font footer-nav padded-m right">
             <nav class="inline">
-              <a class="padded-sides" href="/website-development"> web development </a> |
-              <a class="padded-sides" href="/website-development"> social media marketing </a> |
-              <a class="padded-sides" href="/photography"> photography </a> |
-              <a class="padded-sides" href="/videography"> videography </a> |
-              <a href="/contact"> contact </a>
+              <a class="padded-sides-s" href="/website-development"> web development </a> |
+              <a class="padded-sides-s" href="/website-development"> social media marketing </a> |<br class="desktop-hide">
+              <a class="padded-sides-s" href="/photography"> photography </a> |
+              <a class="padded-sides-s" href="/videography"> videography </a> |
+              <a class="padded-sides-s" href="/contact"> contact </a>
             </nav>
             <nav class="inline socials">
               <a href="https://www.tiktok.com/@kingcodestudio" target="_blank">
@@ -532,24 +782,57 @@
      });
 </script>
 
-<!-- GetButton.io widget -->
-<!-- <script type="text/javascript">
-    (function () {
-        var options = {
-            whatsapp: "254792592802", // WhatsApp number
-            instagram: "kingcodeofficial", // Instagram username
-            instagram_color: "#FF6550", // Instagram button color
-            call_to_action: "Drop us a message!", // Call to action
-            button_color: "#A8CE50", // Color of button
-            position: "right", // Position may be 'right' or 'left'
-            order: "whatsapp,instagram", // Order of buttons
-        };
-        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-    })();
-</script> -->
-<!-- /GetButton.io widget -->
+<script>
+$(document).ready(function() {
+  $(".accordion1").click(function(){
+
+    $(this).toggleClass('active');
+    $(".panel1").slideToggle();
+    })
+
+  $(".accordion2").click(function(){
+
+    $(this).toggleClass('active');
+    $(".panel2").slideToggle();
+    })
+
+  $(".accordion3").click(function(){
+
+    $(this).toggleClass('active');
+    $(".panel3").slideToggle();
+    })
+
+  $(".accordion4").click(function(){
+
+    $(this).toggleClass('active');
+    $(".panel4").slideToggle();
+    })
+
+  $(".accordion5").click(function(){
+
+    $(this).toggleClass('active');
+    $(".panel5").slideToggle();
+    })
+
+  $(".accordion6").click(function(){
+
+    $(this).toggleClass('active');
+    $(".panel6").slideToggle();
+    })
+
+  $(".accordion7").click(function(){
+
+    $(this).toggleClass('active');
+    $(".panel7").slideToggle();
+    })
+
+  $(".accordion8").click(function(){
+
+    $(this).toggleClass('active');
+    $(".panel8").slideToggle();
+    })
+});
+</script>
+
 </body>
 </html>
