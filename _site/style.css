@@ -337,6 +337,12 @@
 
   .not-bold   { font-weight: normal; } /* add this class to make headings not bold */
   .no-bullets { list-style:none; } /* Used to remove dot-points from a list */
+  li
+    {list-style-position: inside;
+      border-left: 2px solid #c1b9ac;
+      margin-left: 1%;
+      padding: 0% 1% 1% 1%;
+      }
 
   .bold
     {
@@ -506,36 +512,6 @@
 
   .sub-footer a {padding: 0% 2% 0% 2%;}
 
-
-
-  /* Dropdown Header */
-
-  header li {
-    list-style: none;
-    display: inline-block;
-    position: relative;
-  }
-
-  header li .dropdown-menu {
-    display: none;
-    padding: 1rem;
-    min-width: 12rem;
-  }
-
-  header li li {
-    display: block;
-  }
-  li {font-size: 0.5rem;
-  font-weight: bolder;}
-
-  header .dropdown:hover .dropdown-menu {
-    display: block;
-    position: absolute;
-    top: 2rem;
-    right: -1rem;
-    background-color: whit
-  }
-
   /* Fixed Header Option */
 
   header.fixed {
@@ -557,6 +533,7 @@
   .side-bar a:hover {
     color: #e3dfd4;
     border-bottom: solid 1px #e3dfd4;}
+
 
 
   /* Hamburger Menu */
@@ -1209,13 +1186,13 @@ a.bg-image-photography {
  }
 
 
-.accordion1, .accordion2, .accordion3, .accordion4, .accordion5, .accordion6, .accordion7, .accordion8 p {color: rgb(90, 90, 95);}
+.accordion1, .accordion2, .accordion3, .accordion4, .accordion5, .accordion6, .accordion7, .accordion8, .accordion9 p {color: rgb(90, 90, 95);}
 
 /* Accordian slides */
-.panel1, .panel2, .panel3, .panel4, .panel5, .panel6, .panel7, .panel8 {display: none;}
+.panel1, .panel2, .panel3, .panel4, .panel5, .panel6, .panel7, .panel8, .panel9 {display: none;}
 
 
-.panel1, .panel2, .panel3, .panel4, .panel5, .panel6, .panel7, .panel8 p {
+.panel1, .panel2, .panel3, .panel4, .panel5, .panel6, .panel7, .panel8, .panel9 p {
   padding: 0% 1%;
   font-size: 0.8rem;
 }
