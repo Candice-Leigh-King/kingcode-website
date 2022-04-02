@@ -65,7 +65,7 @@
   .padded   {  padding: 5% !important;    }
   .padded-s { padding: 1% !important;}
   .padded-m {padding: 3% !important;}
-  .padded-1 {  padding: 1rem;  }
+  .padded-1 {  padding: 1rem !important;  }
   .padded-2 {  padding: 2rem;  }
   .padded-4 {  padding:5rem;   }
   .padded-05 {padding: .5rem;}
@@ -323,8 +323,8 @@
   .margin {margin: 5%;}
   .margin-2{margin: 6%;}
   .margin-bottom {margin-bottom: 2%;}
+  .margin-shop {margin: 1rem !important;}
 
-  .templates {border-top: 1px solid;}
   .border-template {border: 1px solid;}
   /* ------- unique typography styles - adjust to suit your styles  --------- */
 
@@ -482,6 +482,16 @@
     color: inherit;
     color: #766c5c;
 
+  }
+
+  .scroll
+    {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    padding: 20px;
   }
 
 .radius
@@ -1200,7 +1210,8 @@ a.bg-image-photography {
 
 
 @media(min-width:769px){
-  .desktop-hide {display: none;}
+    .desktop-hide {display: none;}
+
 }
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
@@ -1376,8 +1387,8 @@ a.bg-image-photography {
   .web-dev h1 {font-size: 1.1rem;}
 
   .services {
-    padding: 0% 1.6% 0% 1.6%;
-    font-size: 0.6rem;}
+    /* padding: 0% 1.6% 0% 1.6%;
+  font-size: 0.6rem; */}
 
   .padded-top {  padding-top: 5%;  }
   .padded-bottom {padding-bottom: 2%;}
