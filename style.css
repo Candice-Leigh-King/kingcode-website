@@ -188,6 +188,11 @@
       display: inline-block !important;
   }
 
+  .mock-ups{  background-size: contain;
+    background-position: center;
+    min-height: 100%;
+    background-repeat: no-repeat;  }
+
   .social-media-management h1
     {
     font-size: 2.2rem;
@@ -216,7 +221,7 @@
 
    h2, h3, h5, h6
    {
-    line-height: 1;
+    line-height: 1.5;
     margin-bottom: 0.8rem;
     font-family: 'Playfair Display', serif;
     color: #c1b9ac;
@@ -225,6 +230,17 @@
 
   h2  { font-size: 2rem;  }
   h3  { font-size: 1.8rem;  }
+
+  h5 {font-size: 1.2rem;
+  font-weight: 100;}
+
+  .products h1
+  {
+   line-height: 1;
+   margin-bottom: 0.8rem;
+   color: #c1b9ac;
+   font-size: 2rem;
+    }
 
   .apply
     {
@@ -279,6 +295,8 @@
     text-align: left;
     }
 
+
+
   .home hr
     {
     border: none;
@@ -326,6 +344,8 @@
   .margin-shop {margin: 1rem !important;}
 
   .border-template {border: 1px solid;}
+
+  .border-bottom {border-bottom: 1px solid;}
   /* ------- unique typography styles - adjust to suit your styles  --------- */
 
   .logo-font
@@ -337,12 +357,7 @@
 
   .not-bold   { font-weight: normal; } /* add this class to make headings not bold */
   .no-bullets { list-style:none; } /* Used to remove dot-points from a list */
-  li
-    {list-style-position: inside;
-      border-left: 2px solid #c1b9ac;
-      margin-left: 1%;
-      padding: 0% 1% 1% 1%;
-      }
+
 
   .bold
     {
@@ -1403,6 +1418,8 @@ a.bg-image-photography {
     padding: 1rem 1rem 1rem 1rem;}
 
   .border {border: solid white 2.5px;}
+
+
 
   .border-top-right-bottom {
     border-top: solid white 2.5px;

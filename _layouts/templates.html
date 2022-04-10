@@ -1,13 +1,38 @@
 ---
-layout: shop
+layout: products
 ---
 
-<section class="grid-center padded">
+<section id="buy" class="grid-center template-bg  shop-details border-bottom padded-top">
+<div class="grid-centered padded-top padded-sides">
+<div  class="col-5_md-6_sm-12 relative">
+
+
+<img  src="{{page.product_image}}">
+</div>
+<div class="col-5_md-6_sm-12 padded-sides products ">
+<h1 class="left"> {{page.header}}</h1>
+<div class="grid-left">
+  <div class="shopify-buy-button-styles">
+    <div id='product-component-{{page.product-number}}'></div>
+  </div>
+</div>
+<h5 class="margin-bottom"> {{page.product-header}} </h5>
+<p> {{page.product-description}} </p>
+<p> {{page.product-description-two}} </p>
+<p> {{page.product-description-three}} </p>
+</div>
+</div>
+<div class="grid products padded-1 desktop-hide"><a href="#buy" class="button col-12 centered"> get it now</a>
+
+</div>
+</section>
+
+<section class="grid-center template-bg padded">
   <h3 class="col-12 centered"> {{page.info-header}}</h3>
 </section>
-<section class="padded-sides">
+<section class="padded-sides template-bg ">
   <div class="grid flex-flip">
-    <div class="col-6_sm-12 mock-ups" style="background-image: url('{{page.bg-image1}}');"> <img class="desktop-hide"src="{{page.bg-background1}}" alt="Make a living doing what you love">
+    <div class="col-6_sm-12 mock-ups" style="background-image: url('{{page.bg-image1}}');"> <img class="desktop-hide"src="{{page.bg-image1}}" alt="Make a living doing what you love">
     </div>
     <div class="col-6_sm-12-middle left padded reg">
       <h3> {{page.heading-text-info-1}} </h3>
@@ -18,27 +43,15 @@ layout: shop
       <li> {{page.text-info-1-4}} </li>
       <li> {{page.text-info-1-5}} </li>
       <li> {{page.text-info-1-6}} </li>
-      <li> {{page.text-info-1-7}} </li>
     </div>
   </div>
   <div class="grid flex-flip">
-    <div class="col-6_sm-12 mock-ups" style="background-image: url('{{page.bg-image2}}');"> <img class="desktop-hide"src="{{page.bg-background2}}" alt="Make a living doing what you love">
+    <div class="col-6_sm-12 mock-ups" style="background-image: url('{{page.bg-image2}}');"> <img class="desktop-hide"src="{{page.bg-image2}}" alt="Make a living doing what you love">
     </div>
     <div class="col-6_sm-12-middle padded reg">
       <h3>  {{page.heading-text-info-2}}</h3>
       <p> {{page.text-info-para-2}}</p>
-      <li> {{page.text-info-2-1}} </li>
-      <li> {{page.text-info-2-2}}</li>
-      <li> {{page.text-info-2-3}} </li>
-      <li> {{page.text-info-2-4}} </li>
-      <li> {{page.text-info-2-5}} </li>
-      <li> {{page.text-info-2-6}} </li>
-      <li> {{page.text-info-2-7}} </li>
-      <li> {{page.text-info-2-8}} </li>
     </div>
   </div>
+  <div class="grid-center products padded-1"><a href="#buy" class="button col-2_sm-6 centered"> I need this!</a></div>
 </section>
-<section class=" grid-center padded-sides">
-    <h4 class="col-8_sm-10 centered">{{page.last-para}}</h4>
-  </section>
-<div class="grid-center products padded-1"><a href="#buy" class="button col-2_sm-6 centered"> I need this!</a></div>
