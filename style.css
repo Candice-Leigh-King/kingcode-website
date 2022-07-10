@@ -1257,6 +1257,7 @@ a.bg-image-photography {
 
 @media(min-width:769px){
     .desktop-hide {display: none;}
+    
 
 }
 /* This media query kicks into action at the gridlex sm breakpoint */
