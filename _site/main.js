@@ -66,6 +66,8 @@ $(document).ready(function() {
 			$(this).toggleClass('active');
 			$(".panel9").slideToggle();
 			})
+			
+			
 });
 
 // end accordian
