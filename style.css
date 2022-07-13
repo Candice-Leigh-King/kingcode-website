@@ -1601,6 +1601,14 @@ a.bg-image-photography {
   .flex-flip{
     flex-direction: row;
   }
+
+  .reviews {
+    font-size: 1.6rem;}
+
+ .review img {
+      max-width: 90%;
+     
+    }  
 }
 /* end media query */
 
@@ -1625,6 +1633,17 @@ a.bg-image-photography {
   .small-font{ font-size: 0.7rem}
   .web-dev h1 {font-size: 1.1rem;}
 
+  /* portfolio  */
+
+  .reviews {
+    font-size: 1.5rem;}
+    
+  .review {font-size: 2rem;}  
+
+  .review img {
+      max-width: 100%;
+    
+    } 
   /* .services {
     padding: 0% 1.6% 0% 1.6%;
   font-size: 0.6rem;} */
