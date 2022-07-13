@@ -1606,7 +1606,7 @@ a.bg-image-photography {
     font-size: 1.6rem;}
 
  .review img {
-      max-width: 90%;
+      max-width: 33%;
      
     }  
 }
@@ -1637,11 +1637,11 @@ a.bg-image-photography {
 
   .reviews {
     font-size: 1.5rem;}
-    
+
   .review {font-size: 2rem;}  
 
   .review img {
-      max-width: 100%;
+      max-width: 50%;
     
     } 
   /* .services {
