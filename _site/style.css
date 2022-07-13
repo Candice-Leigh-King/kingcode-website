@@ -1631,6 +1631,12 @@ a.bg-image-photography {
       max-width: 33%;
      
     }  
+
+  .v-bump-right {
+    margin-left: 11rem;}
+
+   .sm-bump-left {
+      margin-left: -3.5rem;}
 }
 /* end media query */
 
@@ -1664,8 +1670,14 @@ a.bg-image-photography {
 
   .review img {
       max-width: 50%;
-    
     } 
+
+   .v-bump-right {
+     margin-left: 4rem;}
+
+  .sm-bump-left {
+    margin-right: 0rem;
+    margin-left: 0rem;}
   /* .services {
     padding: 0% 1.6% 0% 1.6%;
   font-size: 0.6rem;} */
