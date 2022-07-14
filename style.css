@@ -296,6 +296,7 @@
 
 .playfair { font-family: "Playfair Display", serif;}
 .small-text {font-size: 1.5rem;}
+.small-text-2 {font-size: 1.5rem;}
 
 .reviews {
   font-size: 1.8rem;
@@ -368,6 +369,99 @@
     min-height: 100%;
     background-repeat: no-repeat;  }
 
+    .portfolio hr {
+
+      border: none;
+      border-left: 1px solid;
+      width: 4rem;
+      text-align: center;
+      padding-bottom: 8rem;
+      margin-top: -2rem;
+    }
+
+    .portfolio-mockups {
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      box-sizing: border-box;
+    }
+
+    .device-preview-desktop .device-preview-img {
+      border-radius: 4%;
+      width: 108%;
+      left: -3.7%;
+      position: relative;
+      top: -3.3%;
+      height: 101.5%;
+      z-index: -1;
+      box-shadow: -4px 5px 4px rgb(0 0 0 / 48%), -9px 6px 4px rgb(0 0 0 / 9%), -10px 11px 16px rgb(0 0 0 / 9%), -25px 12px 25px rgb(0 0 0 / 9%), -37px 40px 39px rgb(0 0 0 / 9%);
+  }
+
+
+  .device-preview-img {
+    display: block;
+    background-size: 100% auto;
+    overflow: hidden;
+    -webkit-transition: background-position 4s;
+    transition: background-position 6s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+    height: 55%;
+    border-radius: 6px;
+    z-index: 10;
+}
+
+
+.device-preview-wrapper {
+  position: relative;
+  margin-bottom: -14%;
+}
+
+.device-preview-autosize {
+  opacity: 0;
+  width: 90%;
+  height: auto;
+}
+
+*, *:before, *:after {
+  /* -webkit-box-sizing: border-box; */
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;}
+
+  .d .se-wpt a:hover, .m .se-wpt a:hover {
+    opacity: 1;
+}
+.device-preview-desktop {
+  position: absolute;
+  background: url(/images/ipad-mockup.png) no-repeat top left;
+  background-size: 100% auto;
+  width: 59%;
+  margin-left: 20%;
+  height: 67.8%;
+  top: -10%;
+  left: 0;
+  padding: 3% 3% 0%;
+}
+
+.device-preview-desktop .device-preview-img {
+  
+    border-radius: 3%;
+    width: 106%;
+    left: -2.7%;
+    /* position: relative; */
+    top: -3.3%;
+    height: 96.7%;
+  box-shadow: -4px 5px 4px rgb(0 0 0 / 48%), -9px 6px 4px rgb(0 0 0 / 9%), -10px 11px 16px rgb(0 0 0 / 9%), -25px 12px 25px rgb(0 0 0 / 9%), -37px 40px 39px rgb(0 0 0 / 9%);
+  z-index: 1;
+}
+
+.device-preview-img:hover {
+  background-position:  0% 100%;
+}
+
+.device-preview-img:focus {
+  background-position:   0% 100%;
+}
   .social-media-management h1
     {
     font-size: 2.2rem;
@@ -1651,6 +1745,7 @@ a.bg-image-photography {
     }
 
   .small-text {font-size: 0.8rem;}
+  .small-text-2 {font-size: 1.4rem;}
 
   h1 {font-size: 1.7rem;}
   h2 {font-size: 2rem;}
