@@ -31,7 +31,7 @@ paragraph: At the click of a button, you have the power to quickly share your li
     <div class="col-8_sm-10 black-border-social-all social-media bump-up centered">
       <h1>{{page.heading}}</h1>
       <h4> {{page.subheading}}</h4>
-      <p>Currently, 3.6 billion people use social media worldwide. By 2025, projections say that number of users will increase to 4.41 billion. How do I reach them? Social media has unleashed a global audience. We can become whatever we want and we can achieve everything we want. With social media, our reach is limitless, therefore we are limitless.</p>
+      <p>{{page.brief}}</p>
     </div>
   </section>
 </section>
@@ -40,25 +40,24 @@ paragraph: At the click of a button, you have the power to quickly share your li
   <section class="grid-middle centered col-4_sm-12">
     <div class="col-12 padded">
       <h1 class="small-text-2 ">
-        custom-coded<br>
-        Integrated with Shopify
+      {{page.features}}
         </h1>
-       <h5 class="playfair  ">Overview dashboard | Finance reports | Customer profiles | Order management | Product management| Email carts | In-store inventory | Gift cards | Split bill | Custom discounts and discount codes</h5> 
+       <h5 class="playfair  ">{{page.feature-list}}</h5> 
     </div>
   </section>
 
   <section class="grid-middle padded-sides col-8_sm-12">
     <div class="col-3  ">
-      <img class="circle v-light-bg v-bump-right black-border-social-all" src="/images/ecommerce-website-3.png" alt="">
+      <img class="circle v-light-bg v-bump-right black-border-social-all" src="{{page.circle-image}}" alt="">
     </div>
     <div class="col-9  ">
-     <img src="/images/ecommerce-website-1.png" alt="">
+     <img src="{{page.laptop-image}}" alt="">
     </div>
     <div class="col-7 bump-up  ">
-      <img class=" black-border-social-all v-light-bg " src="images/ecommerce-website-2.png" alt="">
+      <img class=" black-border-social-all v-light-bg " src="{{page.spread-image}}" alt="">
     </div>
     <div class="col-5 padded-right sm-bump-left bump-up ">
-      <img class="template-radius bump-up black-border-social-all v-light-bg" src="/images/ecommerce-website-4.png" alt="">
+      <img class="template-radius bump-up black-border-social-all v-light-bg" src="{{page.arched-image}}" alt="">
     </div>
   </section>
 </section>
@@ -69,22 +68,20 @@ paragraph: At the click of a button, you have the power to quickly share your li
 </section>
 
 <section class="grid-center v-light-bg">
-<div class="design-main-info col-12">
-  
-  <div class="main-preview">
-      
-  <div class="design-content">
-      <div class="device-preview-wrapper">
+  <div class="design-main-info col-12">
+    <div class="main-preview">    
+      <div class="design-content">
+        <div class="device-preview-wrapper">
           <img src="/images/ipad-mockup.png" class="device-preview-autosize" alt="iPad mockup">
-          <div class="device-preview-desktop" height="400px" width="500px">
-              <div class="device-preview-img " style="background-image:url(/images/gayamockup.jpg);;"></div>
-          </a>
-          <h6 class="small-text-2 centered desktop-hide"> tap to view</h6>
+            <div class="device-preview-desktop" height="400px" width="500px">
+                <div class="device-preview-img mob-hide" style="background-image:url('{{page.mockup}}');"></div>
+                <div class="device-preview-img desktop-hide" style="background-image:url('{{page.mob-mockup}}');"></div>
+              <h6 class="small-text-2 centered desktop-hide"> tap to view</h6>
+          </div>
       </div>
-  </div>
-  
-  </div>
-</div>
+      </div>
+    </div>
+  </div> 
 </section>
 
 <!-- <section class="">
