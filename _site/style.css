@@ -461,6 +461,12 @@
 .device-preview-img:focus {
   background-position:   0% 100%;
 }
+
+.bump-up-line {
+  margin-top: -7rem;
+  z-index: 10;
+}
+
   .social-media-management h1
     {
     font-size: 2.2rem;
@@ -1646,7 +1652,13 @@ a.bg-image-photography {
 
   .bump-left {
     margin-left: -5rem;
-              }
+  }
+
+  .bump-up-line {
+    margin-top: -4rem;
+    z-index: 10;
+  }
+              
 
   .bump-up {
     margin-top: -3.5rem;
@@ -1770,6 +1782,11 @@ a.bg-image-photography {
 
    .v-bump-right {
      margin-left: 4rem;}
+
+     .bump-up-line {
+      margin-top: 0rem;
+    }
+    
 
   .sm-bump-left {
     margin-right: 0rem;
