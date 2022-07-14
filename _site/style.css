@@ -308,7 +308,6 @@
   font-family: "mak";
   text-decoration: none;
   color:  #efe9db;
-  
   padding: 0.6rem 2rem;
   display: inline-block;
   font-size: 4rem;
@@ -414,7 +413,7 @@
 
 .device-preview-wrapper {
   position: relative;
-  margin-bottom: -14%;
+  margin-bottom: -20%;
 }
 
 .device-preview-autosize {
@@ -1766,6 +1765,8 @@ a.bg-image-photography {
   .review img {
       max-width: 50%;
     } 
+
+   .enquire a {font-size: 3.2rem;} 
 
    .v-bump-right {
      margin-left: 4rem;}
