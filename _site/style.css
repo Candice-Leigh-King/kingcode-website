@@ -321,6 +321,23 @@
 
 } 
 
+.enquire-portfolio a {
+  font-family: "mak";
+  text-decoration: none;
+  color:  #efe9db;
+  padding: 0.6rem 2rem;
+  display: inline-block;
+  font-size: 4rem;
+  background-color: #766c5b;
+  border-radius: 100%;
+}
+
+.enquire-portfolio a:hover {
+  background-color: transparent;
+  color: #766c5b;
+
+} 
+
 .radius-100 {
   border-radius: 100%;
   padding: 1rem;
@@ -1816,7 +1833,9 @@ a.bg-image-photography {
     }
 
   .radius-100-portfolio {padding: 0.5rem;}
-  
+
+  .enquire-portfolio a {font-size: 2rem;}
+
    .enquire a {font-size: 3.2rem;} 
 
    .v-bump-right {
