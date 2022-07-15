@@ -393,6 +393,11 @@
       box-sizing: border-box;
     }
 
+  .stars {
+      font-size: 2rem;
+      color: #2f2f2e;
+    }
+
     .z-index {z-index: -1;}
 
     .device-preview-desktop .device-preview-img {
@@ -1068,9 +1073,7 @@
   font-weight: lighter;
   }
 
-  .stars {font-size: 1rem;
-    color: #2f2f2e;
-    }
+ 
 
   .review img {
     max-width: 25%;
@@ -1787,7 +1790,9 @@ a.bg-image-photography {
   .review img {
       max-width: 50%;
     } 
-
+    .stars {font-size: 1rem;
+      color: #2f2f2e;
+      }
    .enquire a {font-size: 3.2rem;} 
 
    .v-bump-right {
