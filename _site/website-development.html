@@ -188,6 +188,8 @@
 
 <section class="grid-centered">
   <h4 class="col-8_sm-10 centered padded">You have worked hard on creating a unique brand. Why would you settle for a website that looks like it got mass produced?</h4>
+  <div class="col-8  enquire-home black-border radius-100-portfolio centered">
+  <a href="/website-portfolio" class=" padded">see our work</a>  
 
 </section>
 
@@ -621,6 +623,25 @@ $(document).ready(function(){
      arrows: false,
    });
  });
+
+ // on scroll
+			// on scroll
+      function reveal() {
+	let reveals = document.querySelectorAll(".reveal");
+
+	for (let i = 0; i < reveals.length; i++) {
+	let windowHeight = window.innerHeight;
+	let elementTop = reveals[i].getBoundingClientRect().top;
+	let elementVisible = 150;
+
+	if (elementTop < windowHeight - elementVisible) {
+	reveals[i].classList.add("active");
+	} else {
+	}
+	}
+	}
+
+	window.addEventListener("scroll", reveal);
 
 </script>
 
