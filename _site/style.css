@@ -36,6 +36,11 @@
     margin-bottom: -0.6%;
   }
 
+  .studio img 
+  {
+    max-width: 85%;
+  }
+
   .mob-bg1 {
     background-image: url(/images/candy3.jpg);
     background-size: cover;
@@ -1056,7 +1061,7 @@ border-bottom: 0px;}
     font-family: 'Dynalight', cursive;
     font-size: 1.5rem;
     border-bottom: 2px solid rgba(255,255,255,.7);
-    padding-top: 4rem;
+    padding-top: 1rem;
   }
   .mobile-menu {
     position: fixed;
