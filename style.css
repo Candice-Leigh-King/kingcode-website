@@ -154,6 +154,12 @@
     z-index:1;
     }
 
+    .s-bump-up
+    {
+    margin-top: -12rem;
+    z-index:1;
+    } 
+
     .bump-up-portfolio
     {
     margin-top: -3rem;
@@ -1863,11 +1869,12 @@ a.bg-image-photography {
   .bump-up {
     margin-top: -3.5rem;
             }
+  
+  .s-bump-up {
+    margin-top: -8rem; }
 
-  .bump-up-portfolio
-  {
-  margin-top: -1.5rem;
-  }  
+  .bump-up-portfolio {
+  margin-top: -1.5rem;}  
 
   .plus h4 {
       line-height: 1.5;
@@ -2067,6 +2074,9 @@ a.bg-image-photography {
   .bump-up {
       margin-top: -2.5rem;
               }
+
+  .s-bump-up {
+    margin-top: -4rem;  } 
 
   .bump-up-portfolio
   {
