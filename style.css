@@ -768,6 +768,11 @@ border-bottom: 0px;}
     color: #766c5b;
     }
 
+  .border-right-2 {border-right: 1px solid #766c5b;}
+  .border-left-2 {border-left: 1px solid #766c5b;}
+  .border-top-2 {border-top: 1px solid #766c5b;}
+  .border-bottom-2 {border-bottom: 1px solid #766c5b;}
+
   .margin-neg {margin-bottom: -0.1%;}
 
   .border-grey
