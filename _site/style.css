@@ -400,6 +400,35 @@ border-bottom: 0px;}
       opacity: 1;
       }
   }
+
+  @keyframes fadeInUp1 {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated1 {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp1 {
+    opacity: 0
+}
+
+.fadeInUp1 {
+    opacity: 0;
+    animation-name: fadeInU1p;
+    -webkit-animation-name: fadeInUp1;
+}
+
   
 
 
