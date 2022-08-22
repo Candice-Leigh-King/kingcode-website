@@ -451,7 +451,7 @@ border-bottom: 0px;}
   display: inline-block;
   font-size: 4rem;
   background-color: #766c5b;
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 .enquire a:hover {
@@ -469,7 +469,7 @@ border-bottom: 0px;}
   display: inline-block;
   font-size: 4rem;
   background-color: #766c5b;
-  border-radius: 100%;
+  border-radius: 50%;
   }
 
 
@@ -2035,7 +2035,7 @@ a.bg-image-photography {
 
   .radius-100-portfolio {padding: 0.5rem;}
 
-  .enquire-portfolio a {font-size: 1.5rem;}
+  .enquire-portfolio a {font-size: 1.7rem;}
   .enquire-home a {font-size: 1.2rem;}
 
    .enquire a {font-size: 3.2rem;} 
