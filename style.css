@@ -451,7 +451,7 @@ border-bottom: 0px;}
   display: inline-block;
   font-size: 4rem;
   background-color: #766c5b;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 .enquire a:hover {
