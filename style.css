@@ -2,7 +2,7 @@
 /* Brand Colors 
 #766c5b */
 
-/* fonts */
+/* fonts */ mixed-gallery
 
 @font-face {
   font-family: "mak";
@@ -2035,7 +2035,7 @@ a.bg-image-photography {
 
   .radius-100-portfolio {padding: 0.5rem;}
 
-  .enquire-portfolio a {font-size: 1.8rem;}
+  .enquire-portfolio a {font-size: 1.2rem;}
   .enquire-home a {font-size: 1.2rem;}
 
    .enquire a {font-size: 3.2rem;} 
