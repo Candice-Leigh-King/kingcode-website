@@ -77,7 +77,7 @@ twitter-image-alt: Custom-made websites for women in business | Content creation
       <input type="submit" value="Send Message" class="button-solid ">
       <script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
   </form>
-  <script src="https://www.google.com/recaptcha/api.js?render=6LdT6KYhAAAAAPOgxwy51ay8Co7b_zBfFNpMsAWF"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render=SITE_ID"></script>
 <script>
   var submitted = false;
   var tokenCreated = false;
@@ -98,7 +98,7 @@ twitter-image-alt: Custom-made websites for women in business | Content creation
         grecaptcha.ready(function() {
           // do request for recaptcha token
           // response is promise with passed token
-          grecaptcha.execute('6LdT6KYhAAAAAPOgxwy51ay8Co7b_zBfFNpMsAWF', {action: 'create_comment'}).then(function (token) {
+          grecaptcha.execute('SITE_ID', {action: 'create_comment'}).then(function (token) {
             // add token to form
             var input = document.createElement("input");
             input.type = "hidden";
