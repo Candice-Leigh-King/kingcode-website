@@ -87,6 +87,29 @@ twitter-image-alt: Custom-made websites for women in business | Content creation
       });
     }
     </script>
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdT6KYhAAAAAPOgxwy51ay8Co7b_zBfFNpMsAWF"></script>
+
+    <script>
+ 
+     function onSuccess(action_token) {
+       const xhr = new XMLHttpRequest();
+       xhr.open('GET','YOUR_URL', false);
+       // Attach the action-token to the predefined request header
+       xhr.setRequestHeader("X-Recaptcha-Token", action_token);
+       xhr.send(null);
+     }
+ 
+     function onError(reason) {
+       alert('Response promise rejected: ' + reason);
+     }
+ 
+     grecaptcha.enterprise.ready(function () {
+       document.getElementById("execute-button").onclick = () => {
+         grecaptcha.enterprise.execute('6LdT6KYhAAAAAPOgxwy51ay8Co7b_zBfFNpMsAWF', {
+         }).then(onSuccess, onError);
+       };
+     });
+    </script>
   </section>
 </section>
 <section class="padded grid-center centered">
