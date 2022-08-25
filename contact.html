@@ -25,8 +25,9 @@ twitter-image-alt: Custom-made websites for women in business | Content creation
 <section>
   <section class=" v-light-bg padded">
 
-    <form id="my-form" method="post" action="/success.html" class=" padded capped-width">
-
+    <form method="post" action="/success.html" class=" padded capped-width">
+  <!-- "g-recaptcha" data-sitekey="6Les2ycaAAAAAF3mwaTZLMrmfMVVtrlVneZUC_YH"></div> -->
+      <br/>
 
       <div class="grid padded">
       <div class="col-2_sm-12 relative">
@@ -73,48 +74,11 @@ twitter-image-alt: Custom-made websites for women in business | Content creation
             <option class="input-text" value="Other">Other</option>
           </select>
         </div>
-        <input type="hidden" name="_to" value="general-form">
+        <input type="hidden" name="_to" value="hello@kingcode.uk">
         <input type="text" name="_gotcha" style="display: none;">
       <input type="submit" value="Send Message" class="button-solid">
   </form>
-  <script src="https://www.google.com/recaptcha/api.js?render=SITE_ID"></script>
-<script>
-  var submitted = false;
-  var tokenCreated = false;
-  var formEl = document.getElementById('my-form');
-
-  formEl.addEventListener("submit", function (event) {
-
-    // Check if the recaptcha exists
-    if (!tokenCreated) {
-
-      // Prevent submission
-      event.preventDefault();
-
-      // Prevent more than one submission
-      if (!submitted) {
-        submitted = true;
-        // needs for recaptacha ready
-        grecaptcha.ready(function() {
-          // do request for recaptcha token
-          // response is promise with passed token
-          grecaptcha.execute('SITE_ID', {action: 'create_comment'}).then(function (token) {
-            // add token to form
-            var input = document.createElement("input");
-            input.type = "hidden";
-            input.name = "g-recaptcha-response";
-            input.value = token;
-            formEl.appendChild(input);
-
-            // resubmit the form
-            tokenCreated = true;
-            formEl.submit();
-          });
-        });
-      }
-    }
-  });
-</script>
+  
   </section>
 </section>
 <section class="padded grid-center centered">
