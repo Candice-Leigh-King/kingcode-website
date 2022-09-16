@@ -1552,6 +1552,12 @@ input:focus, textarea:focus
 
   /* -----HOSTING----- */
 
+  .card-square
+  {
+  padding: 2rem;
+  box-shadow: 2px 2px 7px 1px rgb(0 0 0 / 15%);
+  }
+
   .card 
     {
     padding: 2rem;
