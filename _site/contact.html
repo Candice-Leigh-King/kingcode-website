@@ -54,7 +54,6 @@
     <meta name="twitter:image:alt" content="Custom-made websites for women in business | Content creation | Online Social Media Course  | Social Media Management"
 
 
-  <!-- end of meta tags -->
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&display=swap" rel="stylesheet">
@@ -111,6 +110,7 @@
     src="https://www.facebook.com/tr?id=1072104200300808&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Meta Pixel Code -->
+    <!-- <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdT6KYhAAAAAPOgxwy51ay8Co7b_zBfFNpMsAWF"></script> -->
 </head>
 
 <body>
@@ -164,9 +164,9 @@
 <!-- form -->
 <section>
   <section class=" v-light-bg padded">
-
-    <form method="post" action="/success.html" class=" padded capped-width">
-
+    <form id="my-form'"  method="post" action="/success.html" class=" padded capped-width">
+      <!-- <div class="g-recaptcha" data-sitekey="6LdT6KYhAAAAAPOgxwy51ay8Co7b_zBfFNpMsAWF"></div>
+          <br/> -->
       <div class="grid padded">
       <div class="col-2_sm-12 relative">
         <h2 class="sm-bold vertical-form-text"> basic info </h2>
@@ -191,7 +191,7 @@
       </div>
     </div>
     <div class="grid padded">
-
+      
       <div class="col-2_sm-12 relative">
         <h2 class="sm-bold vertical-form-text"> your brand </h2>
       </div>
@@ -212,10 +212,74 @@
             <option class="input-text" value="Other">Other</option>
           </select>
         </div>
-        <input type="hidden" name="_to" value="general-form">
+        <input type="hidden" name="inbox_key" value="king-code-general-form">
         <input type="text" name="_gotcha" style="display: none;">
-      <input type="submit" value="Send Message" class="button-solid">
+      <input type="submit" value="Send Message" class="button-solid ">
+      <!-- <script src="https://www.google.com/recaptcha/enterprise.js" async defer></script> -->
   </form>
+  <!-- 6LdT6KYhAAAAAPOgxwy51ay8Co7b_zBfFNpMsAWF = site key  -->
+  <!-- 6LdT6KYhAAAAALxDIySqD_jhlfd2HDAhbn_CyH2L sectret  -->
+  <!-- <script src="https://www.google.com/recaptcha/api.js?render=SITE_ID"></script>
+<script>
+  var submitted = false;
+  var tokenCreated = false;
+  var formEl = document.getElementById('my-form');
+
+  formEl.addEventListener("submit", function (event) {
+
+    // Check if the recaptcha exists
+    if (!tokenCreated) {
+
+      // Prevent submission
+      event.preventDefault();
+
+      // Prevent more than one submission
+      if (!submitted) {
+        submitted = true;
+        // needs for recaptacha ready
+        grecaptcha.ready(function() {
+          // do request for recaptcha token
+          // response is promise with passed token
+          grecaptcha.execute('SITE_ID', {action: 'create_comment'}).then(function (token) {
+            // add token to form
+            var input = document.createElement("input");
+            input.type = "hidden";
+            input.name = "g-recaptcha-response";
+            input.value = token;
+            formEl.appendChild(input);
+
+            // resubmit the form
+            tokenCreated = true;
+            formEl.submit();
+          });
+        });
+      }
+    }
+  });
+</script> -->
+    <!-- <script src="https://www.google.com/recaptcha/enterprise.js?render=6LdT6KYhAAAAAPOgxwy51ay8Co7b_zBfFNpMsAWF"></script> -->
+
+    <!-- <script>
+ 
+     function onSuccess(action_token) {
+       const xhr = new XMLHttpRequest();
+       xhr.open('GET','kingcode.uk', false);
+       // Attach the action-token to the predefined request header
+       xhr.setRequestHeader("X-Recaptcha-Token", action_token);
+       xhr.send(null);
+     }
+ 
+     function onError(reason) {
+       alert('Response promise rejected: ' + reason);
+     }
+ 
+     grecaptcha.enterprise.ready(function () {
+       document.getElementById("execute-button").onclick = () => {
+         grecaptcha.enterprise.execute('6LdT6KYhAAAAAPOgxwy51ay8Co7b_zBfFNpMsAWF', {
+         }).then(onSuccess, onError);
+       };
+     });
+    </script> -->
   </section>
 </section>
 <section class="padded grid-center centered">
@@ -258,10 +322,10 @@
             <!-- column -->
             <div class="col-8_sm-12-middle small-font footer-nav padded right">
               <nav class="inline">
-                <a class="padded-sides" href="/website-development"> web development </a> |
-                <a class="padded-sides" href="/website-development"> social media marketing </a> |
-                <a class="padded-sides" href="/photography"> photography </a> |
-                <a class="padded-sides" href="/videography"> videography </a> |
+                <a class="" href="/website-development"> web development </a> |
+                <a class="" href="/website-development"> social media marketing </a> |
+                <a class="" href="/photography"> photography </a> |
+                <a class="" href="/videography"> videography </a> |
               <a href="/contact"> contact </a>
             </nav>
             <nav class="inline socials">
@@ -450,6 +514,65 @@
        autoplaySpeed: 2000,
      });
 </script>
+
+
+<script>
+  $(document).ready(function() {
+    $(".accordion1").click(function(){
+  
+      $(this).toggleClass('active');
+      $(".panel1").slideToggle();
+      })
+  
+    $(".accordion2").click(function(){
+  
+      $(this).toggleClass('active');
+      $(".panel2").slideToggle();
+      })
+  
+    $(".accordion3").click(function(){
+  
+      $(this).toggleClass('active');
+      $(".panel3").slideToggle();
+      })
+  
+    $(".accordion4").click(function(){
+  
+      $(this).toggleClass('active');
+      $(".panel4").slideToggle();
+      })
+  
+    $(".accordion5").click(function(){
+  
+      $(this).toggleClass('active');
+      $(".panel5").slideToggle();
+      })
+  
+    $(".accordion6").click(function(){
+  
+      $(this).toggleClass('active');
+      $(".panel6").slideToggle();
+      })
+  
+    $(".accordion7").click(function(){
+  
+      $(this).toggleClass('active');
+      $(".panel7").slideToggle();
+      })
+  
+    $(".accordion8").click(function(){
+  
+      $(this).toggleClass('active');
+      $(".panel8").slideToggle();
+      })
+  
+      $(".accordion9").click(function(){
+  
+        $(this).toggleClass('active');
+        $(".panel9").slideToggle();
+        })
+  });
+  </script>
 
 </body>
 </html>

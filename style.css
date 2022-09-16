@@ -77,8 +77,8 @@
   .padded-05 {padding: .5rem;}
   .padded-10 {padding: 10%;}
   .unique-padding {  padding: 1.1rem;  }
-  .padded-sides { padding: 0% 5% 0% 5% !important;}
-  .padded-sides { padding: 0% 2% 0% 2% !important;}
+  .padded-sides { padding-right: 5% !important;
+                  padding-left: 5% !important;}
   .padded-right { padding: 0% 0% 0% 5%;}
   .padded-top-left-bottom {padding: 5% 0% 5% 5%;}
   .padded-bottom {padding-bottom: 5%;}
@@ -98,6 +98,7 @@
 
   .dark-bg      {  background-color: #c1b9ac;     }
   .light-bg     {  background-color: #efe9db;  }
+  .hosting-card-bg {background-color: #E6E3DE;}
   .featured-bg  {  background-color: #ffdfc3;       }
   .bg-white     {  background-color: #fff;}
   .bg-light-grey { background-color: #eeeeee;}
@@ -106,7 +107,7 @@
   .template-bg {background-color: #eceff1;}
 
   .split-beige {background: linear-gradient(180deg,#fff 80%,#efe9db 20%);}
-  .split-beige-white {background: linear-gradient(180deg,#efe9db 70%,#fff 60%);}
+  .split-beige-white {background: linear-gradient(180deg,#efe9db 51%,#fff 46%);}
 
   .light-text   { color: white; }
   .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
@@ -1032,6 +1033,10 @@ border-bottom: 0px;}
 
   .small-font{ font-size: 0.9rem}
 
+  .small-font a
+  { padding-left: 2%;
+    padding-right: 2%;}
+
   nav a:hover {
     border-bottom: solid #766c5c 1px;
 
@@ -1529,13 +1534,6 @@ input:focus, textarea:focus
 
   /* Testimomnials */
 
-  .card {
-    padding: 2rem;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
-  }
-
   .profile {
     max-width: 8rem;
     border-radius: 100%;
@@ -1551,6 +1549,57 @@ input:focus, textarea:focus
   .card .company {
     margin-bottom: 2rem;
   }
+
+  /* -----HOSTING----- */
+
+  .card 
+    {
+    padding: 2rem;
+    box-shadow: 3px 14px 9px -7px rgb(0 0 0 / 8%);
+    }
+  
+  .card-subheading 
+    {
+    font-family: "Playfair Display", serif;
+    color: #766C5B;
+    }
+
+  .oval-radius  
+    {
+    border-radius: 100%;
+    box-shadow: 3px 14px 9px -7px rgb(0 0 0 / 8%);
+    margin-top: -2rem;
+    padding: 0% 5% 5% 5%;
+    }
+
+  .hosting-price 
+    { 
+    font-family: "Playfair Display", serif;
+    color: #766C5B;
+    font-size: 1.3rem;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    }
+
+  .hosting-heading
+    { 
+    font-family: "Playfair Display", serif;
+    color: #766C5B;
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+    }
+  
+  .hosting-list 
+    {
+    font-size: 0.9rem;
+    padding: 0.5%;
+    z-index: 1;
+    }
+
+  .hosting-margin {margin: 0rem 1.5rem !important;}
+  .hosting-padded-bottom {padding-bottom: 5% !important;}
+  
+  .underline {border-bottom: 1px solid #766C5B;}
 
   /* clickable boxes */
 
@@ -1989,6 +2038,20 @@ a.bg-image-photography {
 
 /* This media query kicks into action at the gridlex xs breakpoint */
 @media(max-width:576px){
+
+
+  /* ------HOSTING ------  */
+  .hosting-price 
+    { 
+    font-size: 1rem;
+    }
+
+  .hosting-list 
+    {
+    font-size: 0.8rem;
+    padding: 0.5%;
+    z-index: 1;
+    }
 
   p {font-size: 0.9rem;}
 
