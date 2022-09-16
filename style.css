@@ -1237,7 +1237,7 @@ border-bottom: 0px;}
   .bg-image-content {
     background-size: cover;
     background-position: center;
-    min-height: 100%;
+    padding-bottom: 26%;
     background-repeat: no-repeat;
     }
 
@@ -2038,6 +2038,8 @@ a.bg-image-photography {
 
 /* This media query kicks into action at the gridlex xs breakpoint */
 @media(max-width:576px){
+
+  .bg-image-content {padding-bottom: 60%;}
 
 
   /* ------HOSTING ------  */
