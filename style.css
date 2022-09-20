@@ -1556,6 +1556,7 @@ input:focus, textarea:focus
   {
   padding: 2rem;
   box-shadow: 2px 2px 7px 1px rgb(0 0 0 / 15%);
+  
   }
 
   .card 
@@ -1604,6 +1605,34 @@ input:focus, textarea:focus
 
   .hosting-margin {margin: 0rem 1.5rem !important;}
   .hosting-padded-bottom {padding-bottom: 5% !important;}
+
+  .hosting-button 
+    {
+    font-family: Open Sans, sans-serif;
+    background-color: #c1b9ac;
+    border-radius: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: #fff;
+    font-size: 15px;
+    padding: 12px 40px;
+    letter-spacing: .3px;
+    display: block;
+    border-radius: 0px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: background 200ms ease;
+    transition: background 200ms ease;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 1.2;
+    border: 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    }
+
+    .hosting-button:hover {background-color: #766C5B ;}
   
   .underline {border-bottom: 1px solid #766C5B;}
 
@@ -2053,6 +2082,7 @@ a.bg-image-photography {
     { 
     font-size: 1rem;
     }
+  
 
   .hosting-list 
     {
