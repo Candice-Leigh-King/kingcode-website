@@ -1048,6 +1048,7 @@ border-bottom: 0px;}
   }
 
   .sub-footer a {padding: 0% 2% 0% 2%;}
+  .sub-footer a:hover {color:#e3dfd4;}
 
   /* Fixed Header Option */
 
