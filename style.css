@@ -22,6 +22,7 @@
 
   html {
     scroll-behavior: smooth; /* this enables smooth scrolling between internal links */
+    overflow-x: hidden;
     }
 
   body {
@@ -1073,6 +1074,7 @@ border-bottom: 0px;}
   .side-bar a:hover {
     color: #e3dfd4;
     border-bottom: solid 1px #e3dfd4;}
+  .side-bar-dark-h:hover {#fff;}
 
 
 
