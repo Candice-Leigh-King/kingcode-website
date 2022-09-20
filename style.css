@@ -22,7 +22,7 @@
 
   html {
     scroll-behavior: smooth; /* this enables smooth scrolling between internal links */
-    overflow-x: hidden;  }
+    }
 
   body {
     font-family: 'Noto Sans HK', sans-serif;
