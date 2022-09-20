@@ -22,6 +22,7 @@
 
   html {
     scroll-behavior: smooth; /* this enables smooth scrolling between internal links */
+    overflow-x: hidden;
     }
 
   body {
@@ -197,6 +198,8 @@
 
 
   .social-media { background-color: white;}
+  
+  .dark-text {color: #766c5b;}
 
 
 .template-radius {border-radius: 500px 500px 0px 0px;}
@@ -1071,6 +1074,7 @@ border-bottom: 0px;}
   .side-bar a:hover {
     color: #e3dfd4;
     border-bottom: solid 1px #e3dfd4;}
+  .side-bar-dark-h:hover {#fff;}
 
 
 
