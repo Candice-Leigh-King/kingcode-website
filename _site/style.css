@@ -1847,7 +1847,10 @@ a.bg-image-photography {
 .panel1, .panel2, .panel3, .panel4, .panel5, .panel6, .panel7, .panel8, .panel9 {display: none;}
 
 
-
+/* .panel1, .panel2, .panel3, .panel4, .panel5, .panel6, .panel7, .panel8, .panel9 p {
+  padding: 0% 1%;
+  font-size: 0.8rem;
+} */
 
 @media(max-width: 1024px){
 
