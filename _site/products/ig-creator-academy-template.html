@@ -467,7 +467,7 @@
 // /]]>/
 </script>
 
-<!-- 2st -->
+<!-- 3rd -->
 <script type="text/javascript">
 // /<![CDATA[/
 (function () {
@@ -643,6 +643,182 @@ function ShopifyBuyInit() {
 // /]]>/
 </script>
 
+<!-- ultimate content creator template -->
+<script type="text/javascript">
+  // /<![CDATA[/
+  (function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'candyandtheking.myshopify.com',
+      storefrontAccessToken: 'cab3cab316e153c92c8cc9afe856b9fd',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '',
+        node: document.getElementById('product-component-2-1652261579243'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px",
+        }
+      },
+      "button": {
+        "font-family": "Noto Sans HK, sans-serif",
+        ":hover": {
+          "background-color": "#766c5b"
+        },
+        "background-color": "#c1b9ac",
+        ":focus": {
+          "background-color": "#766c5b"
+        },
+        "border-radius": "0%",
+        "padding-left": "40px",
+        "padding-right": "40px"
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "img": false,
+      "title": false,
+      "price": false,
+      "options": false
+    },
+    "text": {
+      "button": "BUY NOW FOR $149 "
+    },
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-family": "Noto Sans HK, sans-serif",
+        ":hover": {
+          "background-color": "#766c5b"
+        },
+        "background-color": "#c1b9ac",
+        ":focus": {
+          "background-color": "#766c5b"
+        },
+        "border-radius": "100%",
+        "padding-left": "24px",
+        "padding-right": "24px",
+      },
+      "title": {
+        "font-family": "Noto Sans HK, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Noto Sans HK, sans-serif"
+      },
+      "compareAt": {
+        "font-family": "Noto Sans HK, sans-serif"
+      },
+      "unitPrice": {
+        "font-family": "Noto Sans HK, sans-serif"
+      },
+      "description": {
+        "font-family": "Noto Sans HK, sans-serif"
+      }
+    },
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "Noto Sans HK, sans-serif"
+      },
+      "select": {
+        "font-family": "Noto Sans HK, sans-serif"
+      }
+    },
+  },
+  "cart": {
+    "styles": {
+      "button": {
+        "font-family": "Noto Sans HK, sans-serif",
+        ":hover": {
+          "background-color": "#766c5b"
+        },
+        "background-color": "#c1b9ac",
+        ":focus": {
+          "background-color": "#766c5b"
+        },
+        "border-radius": "100%"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    },
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Noto Sans HK, sans-serif",
+        "background-color": "#766c5b",
+        ":hover": {
+          "background-color": "#c1b9ac"
+        },
+        "border-radius": "100%",
+        ":focus": {
+          "background-color": "#766c5b"
+        }
+      }
+    },
+  }
+  },
+      });
+    });
+  }
+  })();
+  // /]]>/
+  </script>
+
 <!-- -------------HOSTING------------ -->
 <!-- URL HOSTING  -->
 <script type="text/javascript">
@@ -672,7 +848,7 @@ function ShopifyBuyInit() {
       });
       ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('product', {
-          id: '7323892285621',
+          id: '',
           node: document.getElementById('product-component-1663645120741'),
           moneyFormat: '%24%7B%7Bamount%7D%7D',
           options: {
@@ -851,7 +1027,7 @@ function ShopifyBuyInit() {
         });
         ShopifyBuy.UI.onReady(client).then(function (ui) {
           ui.createComponent('product', {
-            id: '7323895005365',
+            id: '',
             node: document.getElementById('product-component-1663645832405'),
             moneyFormat: '%24%7B%7Bamount%7D%7D',
             options: {

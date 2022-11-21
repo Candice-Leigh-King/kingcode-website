@@ -21,9 +21,9 @@
    <meta charset="utf-8">
 
    <!-- Meta data for SEO purposes. -->
-   <title> {{page.title}} </title>
-   <meta name="description" content="{{page.meta-description}}">
-   <meta name="keywords" content="{{page.meta-keywords}}">
+   <title> Blog Add-On </title>
+   <meta name="description" content="Position yourself as a successful and high-paid content creator with our Get Paid Website template. Actually turn your hobby into a career in less than 30 mins with a professional website designed for content creators.">
+   <meta name="keywords" content="Website templates for creators and entrepreneurs, bloggers, content creators, blog for content creators, hybrid templates, templates, website templates,">
 
    <!-- meta data to tell the browser that your devide is responsive -->
    <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,28 +36,28 @@
     <meta name="google-site-verification" content="OrXiqpLAYW66n20XsZIttR0LrQCm262zlzwy1tLRUYs" />
 
 
-  <!-- link to browser icon tag -->
-  <link rel="shortcut icon" type="image/png" href="images/tag1.png">
+   <!-- link to browser icon tag -->
+   <link rel="shortcut icon" type="image/png" href="images/tag1.png">
 
    <!--  Social media sharing META Tags -->
-    <meta property="og:title" content="{{page.socialtitle}}">
-    <meta property="og:description" content="{{page.socialmeta-description}}">
-    <meta property="og:image" content="{{page.socialfeatured-image_path}}">
-    <meta property="og:url" content="{{page.socialurl}}">
-    <meta name="og:site_name" content="{{page.title}}">
+    <meta property="og:title" content="Website templates for creators and entrepreneurs">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="/images/ultimate-content-creator-blog-add-on/blog-add-on-for-creators.png">
+    <meta property="og:url" content="">
+    <meta name="og:site_name" content="Blog Add-On">
 
     <!-- twitter card -->
 
-    <meta name="twitter:card" content="{{page.summary}}" />
-    <meta name="twitter:description" content="{{page.twitter-description}}" />
-    <meta name="twitter:title" content="{{page.twitter-title}}" />
+    <meta name="twitter:card" content="" />
+    <meta name="twitter:description" content="Position yourself as a successful and high-paid content creator with our Get Paid Website template. Actually turn your hobby into a career in less than 30 mins with a professional website designed for content creators." />
+    <meta name="twitter:title" content="Get Paid Website Template -  Brands will start begging to work with you… no matter your rate!" />
     <meta name="twitter:site" content="@kingcodestudio" />
-    <meta name="twitter:image" content="{{page.twitter-image}}" />
+    <meta name="twitter:image" content="" />
     <meta name="twitter:creator" content="@kingcodestudio" />
-    <meta name="twitter:image:alt" content="{{page.twitter-image-alt}}"
+    <meta name="twitter:image:alt" content=""
 
 
-  <!-- end of meta tag -->
+  <!-- end of meta tags -->
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&display=swap" rel="stylesheet">
@@ -143,8 +143,8 @@
     });
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: '{{page.product-id-1}}',
-        node: document.getElementById('product-component-1-{{page.product-component}}'),
+        id: '',
+        node: document.getElementById('product-component-3-1652257186358'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -154,7 +154,6 @@
           "max-width": "calc(25% - 20px)",
           "margin-left": "20px",
           "margin-bottom": "50px",
-          "border-radius": "0%"
         }
       },
       "button": {
@@ -166,7 +165,7 @@
         ":focus": {
           "background-color": "#766c5b"
         },
-        "border-radius": "100%",
+        "border-radius": "0%",
         "padding-left": "40px",
         "padding-right": "40px"
       }
@@ -179,7 +178,7 @@
       "options": false
     },
     "text": {
-      "button": "BUY NOW"
+      "button": "BUY NOW FOR $149 "
     },
   },
   "productSet": {
@@ -320,8 +319,8 @@
     });
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: '{{page.product-id-2}}',
-        node: document.getElementById('product-component-2-{{page.product-component}}'),
+        id: '',
+        node: document.getElementById('product-component-3-1652257186358'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -331,7 +330,6 @@
           "max-width": "calc(25% - 20px)",
           "margin-left": "20px",
           "margin-bottom": "50px",
-            "border-radius": "0%"
         }
       },
       "button": {
@@ -343,7 +341,7 @@
         ":focus": {
           "background-color": "#766c5b"
         },
-        "border-radius": "100%",
+        "border-radius": "0%",
         "padding-left": "40px",
         "padding-right": "40px"
       }
@@ -356,7 +354,7 @@
       "options": false
     },
     "text": {
-      "button": "BUY NOW"
+      "button": "BUY NOW FOR $149 "
     },
   },
   "productSet": {
@@ -473,6 +471,182 @@
 <script type="text/javascript">
 // /<![CDATA[/
 (function () {
+var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+if (window.ShopifyBuy) {
+  if (window.ShopifyBuy.UI) {
+    ShopifyBuyInit();
+  } else {
+    loadScript();
+  }
+} else {
+  loadScript();
+}
+function loadScript() {
+  var script = document.createElement('script');
+  script.async = true;
+  script.src = scriptURL;
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+  script.onload = ShopifyBuyInit;
+}
+function ShopifyBuyInit() {
+  var client = ShopifyBuy.buildClient({
+    domain: 'candyandtheking.myshopify.com',
+    storefrontAccessToken: 'cab3cab316e153c92c8cc9afe856b9fd',
+  });
+  ShopifyBuy.UI.onReady(client).then(function (ui) {
+    ui.createComponent('product', {
+      id: '7242827759797',
+      node: document.getElementById('product-component-3-1652257186358'),
+      moneyFormat: '%24%7B%7Bamount%7D%7D',
+      options: {
+"product": {
+  "styles": {
+    "product": {
+      "@media (min-width: 601px)": {
+        "max-width": "calc(25% - 20px)",
+        "margin-left": "20px",
+        "margin-bottom": "50px",
+      }
+    },
+    "button": {
+      "font-family": "Noto Sans HK, sans-serif",
+      ":hover": {
+        "background-color": "#766c5b"
+      },
+      "background-color": "#c1b9ac",
+      ":focus": {
+        "background-color": "#766c5b"
+      },
+      "border-radius": "0%",
+      "padding-left": "40px",
+      "padding-right": "40px"
+    }
+  },
+  "buttonDestination": "modal",
+  "contents": {
+    "img": false,
+    "title": false,
+    "price": false,
+    "options": false
+  },
+  "text": {
+    "button": "BUY NOW FOR $149 "
+  },
+},
+"productSet": {
+  "styles": {
+    "products": {
+      "@media (min-width: 601px)": {
+        "margin-left": "-20px"
+      }
+    }
+  }
+},
+"modalProduct": {
+  "contents": {
+    "img": false,
+    "imgWithCarousel": true,
+    "button": false,
+    "buttonWithQuantity": true
+  },
+  "styles": {
+    "product": {
+      "@media (min-width: 601px)": {
+        "max-width": "100%",
+        "margin-left": "0px",
+        "margin-bottom": "0px"
+      }
+    },
+    "button": {
+      "font-family": "Noto Sans HK, sans-serif",
+      ":hover": {
+        "background-color": "#766c5b"
+      },
+      "background-color": "#c1b9ac",
+      ":focus": {
+        "background-color": "#766c5b"
+      },
+      "border-radius": "100%",
+      "padding-left": "24px",
+      "padding-right": "24px",
+    },
+    "title": {
+      "font-family": "Noto Sans HK, sans-serif",
+      "font-weight": "normal"
+    },
+    "price": {
+      "font-family": "Noto Sans HK, sans-serif"
+    },
+    "compareAt": {
+      "font-family": "Noto Sans HK, sans-serif"
+    },
+    "unitPrice": {
+      "font-family": "Noto Sans HK, sans-serif"
+    },
+    "description": {
+      "font-family": "Noto Sans HK, sans-serif"
+    }
+  },
+  "text": {
+    "button": "Add to cart"
+  }
+},
+"option": {
+  "styles": {
+    "label": {
+      "font-family": "Noto Sans HK, sans-serif"
+    },
+    "select": {
+      "font-family": "Noto Sans HK, sans-serif"
+    }
+  },
+},
+"cart": {
+  "styles": {
+    "button": {
+      "font-family": "Noto Sans HK, sans-serif",
+      ":hover": {
+        "background-color": "#766c5b"
+      },
+      "background-color": "#c1b9ac",
+      ":focus": {
+        "background-color": "#766c5b"
+      },
+      "border-radius": "100%"
+    }
+  },
+  "text": {
+    "total": "Subtotal",
+    "button": "Checkout"
+  },
+},
+"toggle": {
+  "styles": {
+    "toggle": {
+      "font-family": "Noto Sans HK, sans-serif",
+      "background-color": "#766c5b",
+      ":hover": {
+        "background-color": "#c1b9ac"
+      },
+      "border-radius": "100%",
+      ":focus": {
+        "background-color": "#766c5b"
+      }
+    }
+  },
+}
+},
+    });
+  });
+}
+})();
+// /]]>/
+</script>
+
+<!-- ultimate content creator template -->
+<script type="text/javascript">
+  // /<![CDATA[/
+  (function () {
   var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
   if (window.ShopifyBuy) {
     if (window.ShopifyBuy.UI) {
@@ -497,8 +671,8 @@
     });
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: '{{page.product-id-3}}',
-        node: document.getElementById('product-component-3-{{page.product-component}}'),
+        id: '',
+        node: document.getElementById('product-component-3-1652257186358'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -508,7 +682,6 @@
           "max-width": "calc(25% - 20px)",
           "margin-left": "20px",
           "margin-bottom": "50px",
-          "border-radius": "0%"
         }
       },
       "button": {
@@ -520,7 +693,7 @@
         ":focus": {
           "background-color": "#766c5b"
         },
-        "border-radius": "100%",
+        "border-radius": "0%",
         "padding-left": "40px",
         "padding-right": "40px"
       }
@@ -533,7 +706,7 @@
       "options": false
     },
     "text": {
-      "button": "BUY NOW"
+      "button": "BUY NOW FOR $149 "
     },
   },
   "productSet": {
@@ -638,15 +811,16 @@
       }
     },
   }
-},
+  },
       });
     });
   }
-})();
-// /]]>/
-</script>
+  })();
+  // /]]>/
+  </script>
 
-<!-- --4th--- -->
+<!-- -------------HOSTING------------ -->
+<!-- URL HOSTING  -->
 <script type="text/javascript">
   // /<![CDATA[/
   (function () {
@@ -674,8 +848,8 @@
       });
       ShopifyBuy.UI.onReady(client).then(function (ui) {
         ui.createComponent('product', {
-          id: '{{page.product-id-4}}',
-          node: document.getElementById('product-component-4-{{page.product-component}}'),
+          id: '',
+          node: document.getElementById('product-component-1663645120741'),
           moneyFormat: '%24%7B%7Bamount%7D%7D',
           options: {
     "product": {
@@ -684,34 +858,35 @@
           "@media (min-width: 601px)": {
             "max-width": "calc(25% - 20px)",
             "margin-left": "20px",
-            "margin-bottom": "50px",
-            "border-radius": "0%"
+            "margin-bottom": "50px"
           }
         },
         "button": {
-          "font-family": "Noto Sans HK, sans-serif",
+          "font-family": "Open Sans, sans-serif",
           ":hover": {
-            "background-color": "#766c5b"
+            "background-color": "#766C5B"
           },
           "background-color": "#c1b9ac",
           ":focus": {
-            "background-color": "#766c5b"
+            "background-color": "#766C5B"
           },
-          "border-radius": "100%",
-          "padding-left": "40px",
-          "padding-right": "40px"
+          "border-radius": "0px",
+          "padding-left": "68px",
+          "padding-right": "68px"
         }
       },
-      "buttonDestination": "modal",
+      "buttonDestination": "checkout",
       "contents": {
         "img": false,
         "title": false,
-        "price": false,
-        "options": false
+        "price": false
       },
       "text": {
         "button": "BUY NOW"
       },
+      "googleFonts": [
+        "Open Sans"
+      ]
     },
     "productSet": {
       "styles": {
@@ -738,82 +913,83 @@
           }
         },
         "button": {
-          "font-family": "Noto Sans HK, sans-serif",
+          "font-family": "Open Sans, sans-serif",
           ":hover": {
-            "background-color": "#766c5b"
+            "background-color": "#aea79b"
           },
           "background-color": "#c1b9ac",
           ":focus": {
-            "background-color": "#766c5b"
+            "background-color": "#aea79b"
           },
-          "border-radius": "100%",
+          "border-radius": "0px",
           "padding-left": "24px",
-          "padding-right": "24px",
+          "padding-right": "24px"
         },
         "title": {
-          "font-family": "Noto Sans HK, sans-serif",
+          "font-family": "Playfair Display, serif",
           "font-weight": "normal"
         },
         "price": {
-          "font-family": "Noto Sans HK, sans-serif"
+          "font-family": "Playfair Display, serif"
         },
         "compareAt": {
-          "font-family": "Noto Sans HK, sans-serif"
+          "font-family": "Playfair Display, serif"
         },
         "unitPrice": {
-          "font-family": "Noto Sans HK, sans-serif"
+          "font-family": "Playfair Display, serif"
         },
         "description": {
-          "font-family": "Noto Sans HK, sans-serif"
+          "font-family": "Playfair Display, serif"
         }
       },
+      "googleFonts": [
+        "Playfair Display",
+        "Open Sans"
+      ],
       "text": {
         "button": "Add to cart"
       }
     },
-    "option": {
-      "styles": {
-        "label": {
-          "font-family": "Noto Sans HK, sans-serif"
-        },
-        "select": {
-          "font-family": "Noto Sans HK, sans-serif"
-        }
-      },
-    },
+    "option": {},
     "cart": {
       "styles": {
         "button": {
-          "font-family": "Noto Sans HK, sans-serif",
+          "font-family": "Open Sans, sans-serif",
           ":hover": {
-            "background-color": "#766c5b"
+            "background-color": "#aea79b"
           },
           "background-color": "#c1b9ac",
           ":focus": {
-            "background-color": "#766c5b"
+            "background-color": "#aea79b"
           },
-          "border-radius": "100%"
+          "border-radius": "0px"
         }
       },
       "text": {
         "total": "Subtotal",
+        "notice": "Discount codes are added at checkout.",
         "button": "Checkout"
       },
+      "googleFonts": [
+        "Open Sans"
+      ]
     },
     "toggle": {
       "styles": {
         "toggle": {
-          "font-family": "Noto Sans HK, sans-serif",
-          "background-color": "#766c5b",
+          "font-family": "Open Sans, sans-serif",
+          "background-color": "#c1b9ac",
           ":hover": {
-            "background-color": "#c1b9ac"
+            "background-color": "#aea79b"
           },
-          "border-radius": "100%",
           ":focus": {
-            "background-color": "#766c5b"
+            "background-color": "#aea79b"
           }
         }
       },
+      "googleFonts": [
+        "Open Sans"
+      ]
     }
   },
         });
@@ -823,7 +999,7 @@
   // /]]>/
   </script>
 
-  <!-- 5th -->
+  <!-- URL + EMAIL  -->
   <script type="text/javascript">
     // /<![CDATA[/
     (function () {
@@ -851,8 +1027,8 @@
         });
         ShopifyBuy.UI.onReady(client).then(function (ui) {
           ui.createComponent('product', {
-            id: '{{page.product-id-5}}',
-            node: document.getElementById('product-component-5-{{page.product-component}}'),
+            id: '',
+            node: document.getElementById('product-component-1663645832405'),
             moneyFormat: '%24%7B%7Bamount%7D%7D',
             options: {
       "product": {
@@ -861,34 +1037,35 @@
             "@media (min-width: 601px)": {
               "max-width": "calc(25% - 20px)",
               "margin-left": "20px",
-              "margin-bottom": "50px",
-              "border-radius": "0%"
+              "margin-bottom": "50px"
             }
           },
           "button": {
-            "font-family": "Noto Sans HK, sans-serif",
+            "font-family": "Open Sans, sans-serif",
             ":hover": {
-              "background-color": "#766c5b"
+              "background-color": "#766C5B"
             },
             "background-color": "#c1b9ac",
             ":focus": {
-              "background-color": "#766c5b"
+              "background-color": "#766C5B"
             },
-            "border-radius": "100%",
-            "padding-left": "40px",
-            "padding-right": "40px"
+            "border-radius": "0px",
+            "padding-left": "68px",
+            "padding-right": "68px"
           }
         },
-        "buttonDestination": "modal",
+        "buttonDestination": "checkout",
         "contents": {
           "img": false,
           "title": false,
-          "price": false,
-          "options": false
+          "price": false
         },
         "text": {
           "button": "BUY NOW"
         },
+        "googleFonts": [
+          "Open Sans"
+        ]
       },
       "productSet": {
         "styles": {
@@ -915,82 +1092,83 @@
             }
           },
           "button": {
-            "font-family": "Noto Sans HK, sans-serif",
+            "font-family": "Open Sans, sans-serif",
             ":hover": {
-              "background-color": "#766c5b"
+              "background-color": "#aea79b"
             },
             "background-color": "#c1b9ac",
             ":focus": {
-              "background-color": "#766c5b"
+              "background-color": "#aea79b"
             },
-            "border-radius": "100%",
+            "border-radius": "0px",
             "padding-left": "24px",
-            "padding-right": "24px",
+            "padding-right": "24px"
           },
           "title": {
-            "font-family": "Noto Sans HK, sans-serif",
+            "font-family": "Playfair Display, serif",
             "font-weight": "normal"
           },
           "price": {
-            "font-family": "Noto Sans HK, sans-serif"
+            "font-family": "Playfair Display, serif"
           },
           "compareAt": {
-            "font-family": "Noto Sans HK, sans-serif"
+            "font-family": "Playfair Display, serif"
           },
           "unitPrice": {
-            "font-family": "Noto Sans HK, sans-serif"
+            "font-family": "Playfair Display, serif"
           },
           "description": {
-            "font-family": "Noto Sans HK, sans-serif"
+            "font-family": "Playfair Display, serif"
           }
         },
+        "googleFonts": [
+          "Playfair Display",
+          "Open Sans"
+        ],
         "text": {
           "button": "Add to cart"
         }
       },
-      "option": {
-        "styles": {
-          "label": {
-            "font-family": "Noto Sans HK, sans-serif"
-          },
-          "select": {
-            "font-family": "Noto Sans HK, sans-serif"
-          }
-        },
-      },
+      "option": {},
       "cart": {
         "styles": {
           "button": {
-            "font-family": "Noto Sans HK, sans-serif",
+            "font-family": "Open Sans, sans-serif",
             ":hover": {
-              "background-color": "#766c5b"
+              "background-color": "#aea79b"
             },
             "background-color": "#c1b9ac",
             ":focus": {
-              "background-color": "#766c5b"
+              "background-color": "#aea79b"
             },
-            "border-radius": "100%"
+            "border-radius": "0px"
           }
         },
         "text": {
           "total": "Subtotal",
+          "notice": "Discount codes are added at checkout.",
           "button": "Checkout"
         },
+        "googleFonts": [
+          "Open Sans"
+        ]
       },
       "toggle": {
         "styles": {
           "toggle": {
-            "font-family": "Noto Sans HK, sans-serif",
-            "background-color": "#766c5b",
+            "font-family": "Open Sans, sans-serif",
+            "background-color": "#c1b9ac",
             ":hover": {
-              "background-color": "#c1b9ac"
+              "background-color": "#aea79b"
             },
-            "border-radius": "100%",
             ":focus": {
-              "background-color": "#766c5b"
+              "background-color": "#aea79b"
             }
           }
         },
+        "googleFonts": [
+          "Open Sans"
+        ]
       }
     },
           });
@@ -999,7 +1177,6 @@
     })();
     // /]]>/
     </script>
-
 </head>
 
 <body>
@@ -1028,8 +1205,8 @@
       <div class='grid-center page-nav mobile-menu'>
         <p class="cross">╳</p>
         <a  href="/">home <br></a>
-        <a  href="/website-portfolio">recent work <br></a>
         <a  href="/services">services <br></a>
+        <a  href="/website-portfolio">recent work <br> </a>
         <a  href="/templates">templates<br></a>
         <a  href="/clients#reviews">clients <br></a>
         <a  href="/clients">reviews <br></a>
@@ -1040,17 +1217,62 @@
 
   </header>
 
-        {{content}}
+        <section id="buy" class="grid-center template-bg  shop-details border-bottom padded-top">
+<div class="grid-centered padded-top padded-sides">
+<div  class="col-5_md-6_sm-12 relative">
 
-          <section class="padded-sides grid centered">
-            <div class="col-2 mob-hide"></div>
-          <div class="col-8-middle_sm-12 home small-centered centered padded">
-            <hr class="centered">
-            <h4 class="margin-top fadein"> {{page.paragraph}} </h4>
 
-          </div>
-            <div class="col-2 mob-hide"></div>
-        </section>
+<img  src="/images/ultimate-content-creator-blog-add-on/blog-add-on-for-creators.png">
+</div>
+<div class="col-5_md-6_sm-12 padded-sides products ">
+<h1 class="centered"> Blog Add-On</h1>
+<div class="grid-center">
+  <div class="shopify-buy-button-styles">
+    <div id='product-component-3-1652257186358'></div>
+  </div>
+</div>
+<h5 class="margin-bottom"> Clients will line up and beg to work with you… no matter your rate! </h5>
+<p> The number one factor that causes online businesses and entrepreneurs to lose out on HUGE deals is not having the tools to sell their products and services. The majority of online businesses succeeding in 2022 are businesses that have successful websites, and the businesses that are failing only use social media as their point of marketing and sales. </p>
+<p> The Get Paid (custom-coded) template was designed specifically for online businesses. Built with the fastest code, we can guarantee that your website will score an A for performance on GTmetrix! All King Code websites are hosted on CloudCannon which is the very same platform as Netflix microsites. It hosts the fastest sites on the web and is recommended by over 40,000 developers. This is exactly the platform that you need to be on. </p>
+<p> This template also comes with free hosting, so CLAIM your free hosting now by clicking on the beige button above! </p>
+
+<div class="centered">
+  <a class="button-solid" href="https://ultimate-blog-for-content-creators.kingcode.uk/blog-categories/blogs" target="_blank">view demo</a>
+</div>
+</div>
+</div>
+</section>
+
+<section class="grid-center template-bg padded">
+  <h3 class="col-12 centered"> What's included</h3>
+</section>
+<section class="padded-sides template-bg ">
+  <div class="grid flex-flip">
+    <div class="col-6_sm-12 mock-ups" style="background-image: url('/images/value-pages3.png');"> <img class="desktop-hide"src="/images/value-pages3.png" alt="Make a living doing what you love">
+    </div>
+    <div class="col-6_sm-12-middle left padded reg">
+      <h3> Content Blocks </h3>
+      <p> This template provides all necessary content blocks that can be duplicated, customized and used across multiple pages for you to successfully show off your brand and services. </p>
+      <li> Services/projects</li>
+      <li> Reviews</li>
+      <li> About </li>
+      <li> Contact form </li>
+      <li> Media kit </li>
+      <li> Hero image </li>
+    </div>
+  </div>
+  <div class="grid flex-flip">
+    <div class="col-6_sm-12 mock-ups" style="background-image: url('/images/get-paid-media-kit.png');"> <img class="desktop-hide"src="/images/get-paid-media-kit.png" alt="Make a living doing what you love">
+    </div>
+    <div class="col-6_sm-12-middle padded reg">
+      <h3>  Media Kit</h3>
+      <p> Hidden media kit that will support you in landing your dream collaborations. No more sending pitches with PDF's that are likely to go to spam- this template will provide you with  a neat link that directs to your media kit.</p>
+    </div>
+  </div>
+  <div class="grid-center products padded-1"><a href="#buy" class="button col-2_sm-6 centered"> I need this!</a></div>
+</section>
+
+
 
 <!-- LightWidget WIDGET -->
         <section class="bg-white borders-top-bottom grid padded-right">
