@@ -3,19 +3,19 @@ layout: products
 ---
 
 <section id="buy" class="grid-center template-bg  shop-details border-bottom padded-top">
-<div class="grid-centered padded-top padded-sides">
+<div class="grid-centered padded-sides">
 <div  class="col-5_md-6_sm-12 relative">
 
-
+  <div class="grid-center">
+    <div class=" shopify-button">
+      <div id='{{page.product-component}}'></div>
+    </div>
+  </div>
+  
 <img  src="{{page.product_image}}">
 </div>
 <div class="col-5_md-6_sm-12 padded-sides products ">
 <h1 class="centered"> {{page.header}}</h1>
-<div class="grid-center">
-  <div class="shopify-buy-button-styles">
-    <div id='{{page.product-component}}'></div>
-  </div>
-</div>
 <h5 class="margin-bottom"> {{page.product-header}} </h5>
 <p> {{page.product-description}} </p>
 <p> {{page.product-description-two}} </p>
@@ -54,5 +54,4 @@ layout: products
       <p> {{page.text-info-para-2}}</p>
     </div>
   </div>
-  <div class="grid-center products padded-1"><a href="#buy" class="button col-2_sm-6 centered"> I need this!</a></div>
 </section>

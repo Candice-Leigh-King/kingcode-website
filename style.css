@@ -553,6 +553,21 @@ border-bottom: 0px;}
     max-height: auto;
     }
 
+  /* ----SHOP---- */
+  .shopify-button 
+    {
+    display: inline-block;
+    position: fixed;
+    line-height: 0.5;
+    top: 4rem;
+    right: 40%;
+    z-index: 2;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    border-radius: 100%;
+    }
+
   .shopify-buy-frame--product {
       display: inline-block !important;
   }
@@ -721,8 +736,8 @@ border-bottom: 0px;}
   {
    line-height: 1;
    margin-bottom: 0.8rem;
-   color: #c1b9ac;
-   font-size: 2rem;
+   color: #766c5b;
+   font-size: 1.8rem;
     }
 
   .apply
@@ -1751,6 +1766,7 @@ a.bg-image-photography {
   .masonry {
     column-count: 1;
   }
+
 }
 
 /* pricing cards  */
@@ -1879,6 +1895,13 @@ a.bg-image-photography {
 }
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
+
+   /* ---SHOP--- */
+   .shopify-button 
+   {
+   top: 1rem;
+   right: 32%;
+   }
 
   .web-portfolio h1 {
    font-size: 5rem;
@@ -2070,6 +2093,8 @@ a.bg-image-photography {
 
    .sm-bump-left {
       margin-left: -3.5rem;}
+
+
 }
 /* end media query */
 
@@ -2078,6 +2103,13 @@ a.bg-image-photography {
 @media(max-width:576px){
 
   .bg-image-content {padding-bottom: 60%;}
+
+  /* ---- SHOP---- */
+ .shopify-button 
+  {
+  top: 0rem;
+  right: 5%;
+  }
 
 
   /* ------HOSTING ------  */

@@ -144,7 +144,7 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '',
-        node: document.getElementById('product-component-3-1652257186358'),
+        node: document.getElementById('product-component-5-1669257598348'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -165,7 +165,7 @@
         ":focus": {
           "background-color": "#766c5b"
         },
-        "border-radius": "0%",
+        "border-radius": "100%",
         "padding-left": "40px",
         "padding-right": "40px"
       }
@@ -178,7 +178,7 @@
       "options": false
     },
     "text": {
-      "button": "BUY NOW FOR $149 "
+      "button": "BUY NOW FOR $69 "
     },
   },
   "productSet": {
@@ -320,7 +320,7 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '',
-        node: document.getElementById('product-component-3-1652257186358'),
+        node: document.getElementById('product-component-5-1669257598348'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -341,7 +341,7 @@
         ":focus": {
           "background-color": "#766c5b"
         },
-        "border-radius": "0%",
+        "border-radius": "100%",
         "padding-left": "40px",
         "padding-right": "40px"
       }
@@ -354,7 +354,7 @@
       "options": false
     },
     "text": {
-      "button": "BUY NOW FOR $149 "
+      "button": "BUY NOW FOR $69 "
     },
   },
   "productSet": {
@@ -495,8 +495,8 @@ function ShopifyBuyInit() {
   });
   ShopifyBuy.UI.onReady(client).then(function (ui) {
     ui.createComponent('product', {
-      id: '7242827759797',
-      node: document.getElementById('product-component-3-1652257186358'),
+      id: '',
+      node: document.getElementById('product-component-5-1669257598348'),
       moneyFormat: '%24%7B%7Bamount%7D%7D',
       options: {
 "product": {
@@ -517,7 +517,7 @@ function ShopifyBuyInit() {
       ":focus": {
         "background-color": "#766c5b"
       },
-      "border-radius": "0%",
+      "border-radius": "100%",
       "padding-left": "40px",
       "padding-right": "40px"
     }
@@ -530,7 +530,7 @@ function ShopifyBuyInit() {
     "options": false
   },
   "text": {
-    "button": "BUY NOW FOR $149 "
+    "button": "BUY NOW FOR $69 "
   },
 },
 "productSet": {
@@ -672,7 +672,7 @@ function ShopifyBuyInit() {
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '',
-        node: document.getElementById('product-component-3-1652257186358'),
+        node: document.getElementById('product-component-5-1669257598348'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
         options: {
   "product": {
@@ -693,7 +693,7 @@ function ShopifyBuyInit() {
         ":focus": {
           "background-color": "#766c5b"
         },
-        "border-radius": "0%",
+        "border-radius": "100%",
         "padding-left": "40px",
         "padding-right": "40px"
       }
@@ -706,7 +706,7 @@ function ShopifyBuyInit() {
       "options": false
     },
     "text": {
-      "button": "BUY NOW FOR $149 "
+      "button": "BUY NOW FOR $69 "
     },
   },
   "productSet": {
@@ -818,6 +818,183 @@ function ShopifyBuyInit() {
   })();
   // /]]>/
   </script>
+
+<!-- --- ttl blog add-on-- -->
+<script type="text/javascript">
+  // /<![CDATA[/
+  (function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'candyandtheking.myshopify.com',
+      storefrontAccessToken: 'cab3cab316e153c92c8cc9afe856b9fd',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '7367459930293',
+        node: document.getElementById('product-component-5-1669257598348'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px",
+        }
+      },
+      "button": {
+        "font-family": "Noto Sans HK, sans-serif",
+        ":hover": {
+          "background-color": "#766c5b"
+        },
+        "background-color": "#c1b9ac",
+        ":focus": {
+          "background-color": "#766c5b"
+        },
+        "border-radius": "100%",
+        "padding-left": "40px",
+        "padding-right": "40px"
+      }
+    },
+    "buttonDestination": "modal",
+    "contents": {
+      "img": false,
+      "title": false,
+      "price": false,
+      "options": false
+    },
+    "text": {
+      "button": "BUY NOW FOR $69 "
+    },
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-family": "Noto Sans HK, sans-serif",
+        ":hover": {
+          "background-color": "#766c5b"
+        },
+        "background-color": "#c1b9ac",
+        ":focus": {
+          "background-color": "#766c5b"
+        },
+        "border-radius": "100%",
+        "padding-left": "24px",
+        "padding-right": "24px",
+      },
+      "title": {
+        "font-family": "Noto Sans HK, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Noto Sans HK, sans-serif"
+      },
+      "compareAt": {
+        "font-family": "Noto Sans HK, sans-serif"
+      },
+      "unitPrice": {
+        "font-family": "Noto Sans HK, sans-serif"
+      },
+      "description": {
+        "font-family": "Noto Sans HK, sans-serif"
+      }
+    },
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "Noto Sans HK, sans-serif"
+      },
+      "select": {
+        "font-family": "Noto Sans HK, sans-serif"
+      }
+    },
+  },
+  "cart": {
+    "styles": {
+      "button": {
+        "font-family": "Noto Sans HK, sans-serif",
+        ":hover": {
+          "background-color": "#766c5b"
+        },
+        "background-color": "#c1b9ac",
+        ":focus": {
+          "background-color": "#766c5b"
+        },
+        "border-radius": "100%"
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    },
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Noto Sans HK, sans-serif",
+        "background-color": "#766c5b",
+        ":hover": {
+          "background-color": "#c1b9ac"
+        },
+        "border-radius": "100%",
+        ":focus": {
+          "background-color": "#766c5b"
+        }
+      }
+    },
+  }
+  },
+      });
+    });
+  }
+  })();
+  // /]]>/
+  </script>
+
 
 <!-- -------------HOSTING------------ -->
 <!-- URL HOSTING  -->
@@ -1100,7 +1277,7 @@ function ShopifyBuyInit() {
             ":focus": {
               "background-color": "#aea79b"
             },
-            "border-radius": "0px",
+            "border-radius": "100%",
             "padding-left": "24px",
             "padding-right": "24px"
           },
@@ -1141,7 +1318,7 @@ function ShopifyBuyInit() {
             ":focus": {
               "background-color": "#aea79b"
             },
-            "border-radius": "0px"
+            "border-radius": "100%"
           }
         },
         "text": {
@@ -1196,8 +1373,6 @@ function ShopifyBuyInit() {
       </nav>
     </div>
 
-    <div class="col-2-middle padded grid centered fixed desktop-hide">
-      <div>
         <p class="hamburger">⋯</p>
       </div>
     <!-- only opens with mobile-menu -->
@@ -1218,23 +1393,23 @@ function ShopifyBuyInit() {
   </header>
 
         <section id="buy" class="grid-center template-bg  shop-details border-bottom padded-top">
-<div class="grid-centered padded-top padded-sides">
+<div class="grid-centered padded-sides">
 <div  class="col-5_md-6_sm-12 relative">
 
-
+  <div class="grid-center">
+    <div class=" shopify-button">
+      <div id='product-component-5-1669257598348'></div>
+    </div>
+  </div>
+  
 <img  src="/images/ultimate-content-creator-blog-add-on/blog-add-on-for-creators.png">
 </div>
 <div class="col-5_md-6_sm-12 padded-sides products ">
-<h1 class="centered"> Blog Add-On</h1>
-<div class="grid-center">
-  <div class="shopify-buy-button-styles">
-    <div id='product-component-3-1652257186358'></div>
-  </div>
-</div>
-<h5 class="margin-bottom"> Clients will line up and beg to work with you… no matter your rate! </h5>
-<p> The number one factor that causes online businesses and entrepreneurs to lose out on HUGE deals is not having the tools to sell their products and services. The majority of online businesses succeeding in 2022 are businesses that have successful websites, and the businesses that are failing only use social media as their point of marketing and sales. </p>
-<p> The Get Paid (custom-coded) template was designed specifically for online businesses. Built with the fastest code, we can guarantee that your website will score an A for performance on GTmetrix! All King Code websites are hosted on CloudCannon which is the very same platform as Netflix microsites. It hosts the fastest sites on the web and is recommended by over 40,000 developers. This is exactly the platform that you need to be on. </p>
-<p> This template also comes with free hosting, so CLAIM your free hosting now by clicking on the beige button above! </p>
+<h1 class="centered"> Blog Add-On <br><strike>$120</strike> $69</h1>
+<h5 class="margin-bottom"> Blog with powerful SEO Tools to back you up! <b class="bg-white">Available now on Black Friday only for <strike>$120</strike> $69.</b> </h5>
+<p> Not only is is super easy to blog, our blog add-on is powered by SEO tools to support you in expanding your online reach. </p>
+<p> Buy this blog to add to any of your King Code templates and expand your growing online business with beautifully designed content blocks that can easily be edited accoring to your brand. </p>
+<p> <i>"I LOVE this template. I love it so much that I got it for both my businesses 😂 (CazFit and FitTogether). I'm not even a content creator (I'm a personal trainer), but the web builder is SOOOOO easy to use that I don't want to use anything else. Plus I can reach out to fitness brands too because of the media kit! Never thought I could do something like that! - Caroline Greef @caz_fit  </i> </p>
 
 <div class="centered">
   <a class="button-solid" href="https://ultimate-blog-for-content-creators.kingcode.uk/blog-categories/blogs" target="_blank">view demo</a>
@@ -1248,28 +1423,27 @@ function ShopifyBuyInit() {
 </section>
 <section class="padded-sides template-bg ">
   <div class="grid flex-flip">
-    <div class="col-6_sm-12 mock-ups" style="background-image: url('/images/value-pages3.png');"> <img class="desktop-hide"src="/images/value-pages3.png" alt="Make a living doing what you love">
+    <div class="col-6_sm-12 mock-ups" style="background-image: url('/images/ultimate-content-creator-blog-add-on/content-blocks.png');"> <img class="desktop-hide"src="/images/ultimate-content-creator-blog-add-on/content-blocks.png" alt="Make a living doing what you love">
     </div>
     <div class="col-6_sm-12-middle left padded reg">
       <h3> Content Blocks </h3>
-      <p> This template provides all necessary content blocks that can be duplicated, customized and used across multiple pages for you to successfully show off your brand and services. </p>
-      <li> Services/projects</li>
-      <li> Reviews</li>
-      <li> About </li>
-      <li> Contact form </li>
-      <li> Media kit </li>
-      <li> Hero image </li>
+      <p> Our amazing Blog Add-On comes with 7 new content blocks specifically designed for content creators and bloggers. Each content block can also be used across your website! </p>
+      <li> Affiliate Marketing Block</li>
+      <li> Space Block</li>
+      <li> Blog Article </li>
+      <li> Embedd Google Maps </li>
+      <li> 3 Recent Blogs </li>
+      <li> Sign off your blogs with your signature </li>
     </div>
   </div>
   <div class="grid flex-flip">
-    <div class="col-6_sm-12 mock-ups" style="background-image: url('/images/get-paid-media-kit.png');"> <img class="desktop-hide"src="/images/get-paid-media-kit.png" alt="Make a living doing what you love">
+    <div class="col-6_sm-12 mock-ups" style="background-image: url('/images/ultimate-content-creator-blog-add-on/block.png');"> <img class="desktop-hide"src="/images/ultimate-content-creator-blog-add-on/block.png" alt="Make a living doing what you love">
     </div>
     <div class="col-6_sm-12-middle padded reg">
-      <h3>  Media Kit</h3>
-      <p> Hidden media kit that will support you in landing your dream collaborations. No more sending pitches with PDF's that are likely to go to spam- this template will provide you with  a neat link that directs to your media kit.</p>
+      <h3>  Scripts</h3>
+      <p> Add scripts to your head! Google Analytics, Facebook Pixel, newsletter scripts. You name it, you can have it! Also, you can add your newsletter sign up content block to every page on your website if you wish!<p>This is a must-have for all bloggers, And it's so easy to use. Adding all necessary scripts has never been so easy.</p></p>
     </div>
   </div>
-  <div class="grid-center products padded-1"><a href="#buy" class="button col-2_sm-6 centered"> I need this!</a></div>
 </section>
 
 
