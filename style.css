@@ -2109,7 +2109,7 @@ a.bg-image-photography {
  .shopify-button 
   {
   top: 0rem;
-  right: 5%;
+  right: auto;
   }
 
 
