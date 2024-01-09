@@ -1418,8 +1418,14 @@ border-bottom: 0px;}
 .floating-input {
       position: relative;
       padding-top: 1rem;
-      margin-bottom: 2rem;
+      /* margin-bottom: 2rem; */
     }
+
+.checkbox 
+  {
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 1rem;
+  }
 
 .enquiry input {font-family: "Playfair Display", serif;}
 
@@ -1431,6 +1437,7 @@ border-bottom: 0px;}
   margin: 0;
   width: 100%;
   border: none;
+  border-radius: 0px;
   border-bottom: 2px solid #5f5a5a;
   transition: all .5s;
   padding: .7rem 0 .5rem;
@@ -2108,7 +2115,7 @@ a.bg-image-photography {
  .shopify-button 
   {
   top: 0rem;
-  right: 5%;
+  right: auto;
   }
 
 
@@ -2287,8 +2294,11 @@ a.bg-image-photography {
     left: -1rem;}
 
   .input-text {
-    font-size: 0.8rem;}
+    font-size: 1rem;}
 
+ select {
+      font-size: 1rem;}
+      
   .bold {
     font-size: 4rem;}
 

@@ -48,23 +48,24 @@ twitter-image-alt: Custom-made websites for women in business | Content creation
           <label class="input-label">Your WhatsApp</label>
         </div>
 
+        <div class="floating-input">
+          <textarea name="Where (country) is your business based?" placeholder="Where (country) is your business based?" class="input-text" required=""></textarea>
+          <label class="input-label">Where (country) is your business based?</label>
+        </div>
+
       </div>
     </div>
     <div class="grid padded">
       
       <div class="col-2_sm-12 relative">
-        <h2 class="sm-bold vertical-form-text"> your brand </h2>
+        <h2 class="sm-bold vertical-form-text"> the work </h2>
       </div>
 
       <div class="col-10_sm-12 padded-2">
-        <div class="floating-input">
-          <textarea name="your brand" placeholder="Tell us a little bit more about business or brand" class="input-text" required=""></textarea>
-          <label class="input-label">Your Brand</label>
-        </div>
 
         <div class="floating-input input-text">
           <select name="services" id="services" required="">
-            <option class="input-text">What services do you require?</option>
+            <option class="input-text">What do you need?</option>
             <option class="input-text" value="Web Development">Web Development</option>
             <option class="input-text" value="Web design">Web design</option>
             <option class="input-text" value="Website hosting">Website hosting</option>
@@ -72,6 +73,37 @@ twitter-image-alt: Custom-made websites for women in business | Content creation
             <option class="input-text" value="Other">Other</option>
           </select>
         </div>
+
+
+        <div class="floating-input input-text checkbox">
+          <label> Do you have branding (logo, color palette, fonts)?</label><br>
+          <div class="grid">
+            <label for="yes" class="checkbox centered col-6"> yes</label>
+            <label for="no" class="checkbox centered col-6"> no</label>
+            <input type="checkbox"  class=" col-6" id="yes" name="yes" value="yes">
+            <input type="checkbox"  class="col-6" id="no" name="no" value="no">
+          </div>
+        </div>
+
+        <div class="floating-input input-text checkbox">
+          <label> What is your budget?</label><br>
+          <div class="grid">
+            <label for=">$1000" class="checkbox centered col-4"> >$1000</label>
+            <label for="±$2500" class="checkbox centered col-4"> ±$2500</label>
+            <label for="$3000+" class="checkbox centered col-4"> $3000+</label>
+            <input type="checkbox"  class=" col-4" id=">$1000" name=">$1000" value=">$1000">
+            <input type="checkbox"  class="col-4" id="±$2500" name="±$2500" value="±$2500">
+            <input type="checkbox"  class="col-4" id="$3000+" name="$3000+" value="$3000+">
+          </div>
+        </div>
+
+
+        <div class="floating-input">
+          <textarea name="your brand" placeholder="Tell us a little bit more about you brand, and if you have a website already paste your website link here" class="input-text" required=""></textarea>
+          <label class="input-label">Your Brand</label>
+        </div>
+
+
         <input type="hidden" name="inbox_key" value="king-code-general-form">
         <input type="text" name="_gotcha" style="display: none;">
       <input type="submit" value="Send Message" class="button-solid ">

@@ -1418,8 +1418,14 @@ border-bottom: 0px;}
 .floating-input {
       position: relative;
       padding-top: 1rem;
-      margin-bottom: 2rem;
+      /* margin-bottom: 2rem; */
     }
+
+.checkbox 
+  {
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 1rem;
+  }
 
 .enquiry input {font-family: "Playfair Display", serif;}
 
@@ -2288,8 +2294,11 @@ a.bg-image-photography {
     left: -1rem;}
 
   .input-text {
-    font-size: 0.8rem;}
+    font-size: 1rem;}
 
+ select {
+      font-size: 1rem;}
+      
   .bold {
     font-size: 4rem;}
 
